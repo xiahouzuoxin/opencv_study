@@ -19,7 +19,7 @@ using namespace cv;
 #define TYPE_MORPH_ELLIPSE   (2)
 
 #define MAX_ELE_TYPE         (2)
-#define MAX_ELE_SIZE         (10)
+#define MAX_ELE_SIZE         (20)
 
 Mat src, erode_dst, dilate_dst;
 
