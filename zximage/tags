@@ -1,0 +1,1071 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	Makefile	/^AR            = ar cqs$/;"	m	line:20
+BlurDialog	blur_dialog.cpp	/^BlurDialog::BlurDialog(cv::Mat& img, QWidget *parent)$/;"	f	line:101	class:BlurDialog	signature:(cv::Mat& img, QWidget *parent)
+BlurDialog	blur_dialog.h	/^    BlurDialog(cv::Mat& img, QWidget *parent=0);$/;"	p	line:25	class:BlurDialog	access:public	signature:(cv::Mat& img, QWidget *parent=0)
+BlurDialog	blur_dialog.h	/^class BlurDialog : public QDialog {$/;"	c	line:22	inherits:QDialog
+BlurDialog::BlurDialog	blur_dialog.cpp	/^BlurDialog::BlurDialog(cv::Mat& img, QWidget *parent)$/;"	f	line:101	class:BlurDialog	signature:(cv::Mat& img, QWidget *parent)
+BlurDialog::BlurDialog	blur_dialog.h	/^    BlurDialog(cv::Mat& img, QWidget *parent=0);$/;"	p	line:25	class:BlurDialog	access:public	signature:(cv::Mat& img, QWidget *parent=0)
+BlurDialog::OPT_BILATERAL	blur_dialog.h	/^        OPT_BILATERAL = 4,$/;"	e	line:57	enum:BlurDialog::__anon1
+BlurDialog::OPT_GUASSIAN	blur_dialog.h	/^        OPT_GUASSIAN = 2,$/;"	e	line:55	enum:BlurDialog::__anon1
+BlurDialog::OPT_GUIDED	blur_dialog.h	/^        OPT_GUIDED = 5,$/;"	e	line:58	enum:BlurDialog::__anon1
+BlurDialog::OPT_HOMOGENEOUS	blur_dialog.h	/^        OPT_HOMOGENEOUS = 1,$/;"	e	line:54	enum:BlurDialog::__anon1
+BlurDialog::OPT_MEDIAN	blur_dialog.h	/^        OPT_MEDIAN = 3,$/;"	e	line:56	enum:BlurDialog::__anon1
+BlurDialog::bilateralBtn	blur_dialog.h	/^    QRadioButton *bilateralBtn;$/;"	m	line:45	class:BlurDialog	access:private
+BlurDialog::blur_opt	blur_dialog.cpp	/^void BlurDialog::blur_opt(void)$/;"	f	line:195	class:BlurDialog	signature:(void)
+BlurDialog::blur_opt	blur_dialog.h	/^    void blur_opt(void);$/;"	p	line:40	class:BlurDialog	access:private	signature:(void)
+BlurDialog::closeButton	blur_dialog.h	/^    QPushButton *closeButton;$/;"	m	line:51	class:BlurDialog	access:private
+BlurDialog::closeClicked	blur_dialog.cpp	/^void BlurDialog::closeClicked()$/;"	f	line:186	class:BlurDialog	signature:()
+BlurDialog::closeClicked	blur_dialog.h	/^    void closeClicked();$/;"	p	line:31	class:BlurDialog	access:public	signature:()
+BlurDialog::dialogClosed	blur_dialog.h	/^    void dialogClosed();$/;"	p	line:28	class:BlurDialog	access:public	signature:()
+BlurDialog::dialogClosed	moc_blur_dialog.cpp	/^void BlurDialog::dialogClosed()$/;"	f	line:124	class:BlurDialog	signature:()
+BlurDialog::getStaticMetaObject	moc_blur_dialog.cpp	/^const QMetaObject &BlurDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:88	class:BlurDialog	signature:()
+BlurDialog::gray_image	blur_dialog.h	/^    cv::Mat gray_image;$/;"	m	line:65	class:BlurDialog	access:private
+BlurDialog::guassianBtn	blur_dialog.h	/^    QRadioButton *guassianBtn;$/;"	m	line:43	class:BlurDialog	access:private
+BlurDialog::guidedBtn	blur_dialog.h	/^    QRadioButton *guidedBtn;$/;"	m	line:46	class:BlurDialog	access:private
+BlurDialog::homogeneousBtn	blur_dialog.h	/^    QRadioButton *homogeneousBtn;$/;"	m	line:42	class:BlurDialog	access:private
+BlurDialog::image	blur_dialog.h	/^    cv::Mat image;$/;"	m	line:64	class:BlurDialog	access:private
+BlurDialog::ksize	blur_dialog.h	/^    int ksize;$/;"	m	line:61	class:BlurDialog	access:private
+BlurDialog::ksizeChanged	blur_dialog.cpp	/^void BlurDialog::ksizeChanged(int value)$/;"	f	line:251	class:BlurDialog	signature:(int value)
+BlurDialog::ksizeChanged	blur_dialog.h	/^    void ksizeChanged(int value);$/;"	p	line:37	class:BlurDialog	access:public	signature:(int value)
+BlurDialog::ksizeLabel	blur_dialog.h	/^    QLabel *ksizeLabel;$/;"	m	line:49	class:BlurDialog	access:private
+BlurDialog::ksizeSBox	blur_dialog.h	/^    QSpinBox *ksizeSBox;$/;"	m	line:48	class:BlurDialog	access:private
+BlurDialog::ksizeSlider	blur_dialog.h	/^    QSlider *ksizeSlider;$/;"	m	line:47	class:BlurDialog	access:private
+BlurDialog::ksize_step	blur_dialog.h	/^    static const int ksize_step = 2;$/;"	m	line:62	class:BlurDialog	access:private
+BlurDialog::medianBtn	blur_dialog.h	/^    QRadioButton *medianBtn;$/;"	m	line:44	class:BlurDialog	access:private
+BlurDialog::metaObject	moc_blur_dialog.cpp	/^const QMetaObject *BlurDialog::metaObject() const$/;"	f	line:91	class:BlurDialog	signature:() const
+BlurDialog::okButton	blur_dialog.h	/^    QPushButton *okButton;$/;"	m	line:50	class:BlurDialog	access:private
+BlurDialog::okClicked	blur_dialog.cpp	/^void BlurDialog::okClicked()$/;"	f	line:180	class:BlurDialog	signature:()
+BlurDialog::okClicked	blur_dialog.h	/^    void okClicked();$/;"	p	line:30	class:BlurDialog	access:public	signature:()
+BlurDialog::opt	blur_dialog.h	/^    } opt;$/;"	m	line:59	class:BlurDialog	typeref:enum:BlurDialog::__anon1	access:private
+BlurDialog::pimage	blur_dialog.h	/^    cv::Mat *pimage;$/;"	m	line:66	class:BlurDialog	access:private
+BlurDialog::qt_metacall	moc_blur_dialog.cpp	/^int BlurDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:104	class:BlurDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+BlurDialog::qt_metacast	moc_blur_dialog.cpp	/^void *BlurDialog::qt_metacast(const char *_clname)$/;"	f	line:96	class:BlurDialog	signature:(const char *_clname)
+BlurDialog::qt_static_metacall	moc_blur_dialog.cpp	/^void BlurDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:57	class:BlurDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+BlurDialog::setBilateralOpt	blur_dialog.cpp	/^void BlurDialog::setBilateralOpt()$/;"	f	line:239	class:BlurDialog	signature:()
+BlurDialog::setBilateralOpt	blur_dialog.h	/^    void setBilateralOpt();$/;"	p	line:35	class:BlurDialog	access:public	signature:()
+BlurDialog::setGuassianOpt	blur_dialog.cpp	/^void BlurDialog::setGuassianOpt()$/;"	f	line:227	class:BlurDialog	signature:()
+BlurDialog::setGuassianOpt	blur_dialog.h	/^    void setGuassianOpt();$/;"	p	line:33	class:BlurDialog	access:public	signature:()
+BlurDialog::setGuidedOpt	blur_dialog.cpp	/^void BlurDialog::setGuidedOpt()$/;"	f	line:245	class:BlurDialog	signature:()
+BlurDialog::setGuidedOpt	blur_dialog.h	/^    void setGuidedOpt();$/;"	p	line:36	class:BlurDialog	access:public	signature:()
+BlurDialog::setHomogeneousOpt	blur_dialog.cpp	/^void BlurDialog::setHomogeneousOpt()$/;"	f	line:221	class:BlurDialog	signature:()
+BlurDialog::setHomogeneousOpt	blur_dialog.h	/^    void setHomogeneousOpt();$/;"	p	line:32	class:BlurDialog	access:public	signature:()
+BlurDialog::setMedianOpt	blur_dialog.cpp	/^void BlurDialog::setMedianOpt()$/;"	f	line:233	class:BlurDialog	signature:()
+BlurDialog::setMedianOpt	blur_dialog.h	/^    void setMedianOpt();$/;"	p	line:34	class:BlurDialog	access:public	signature:()
+BlurDialog::staticMetaObject	moc_blur_dialog.cpp	/^const QMetaObject BlurDialog::staticMetaObject = {$/;"	m	line:82	class:BlurDialog	file:
+BlurDialog::staticMetaObjectExtraData	moc_blur_dialog.cpp	/^const QMetaObjectExtraData BlurDialog::staticMetaObjectExtraData = {$/;"	m	line:78	class:BlurDialog	file:
+BlurDialog::statusChanged	blur_dialog.h	/^    void statusChanged();$/;"	p	line:27	class:BlurDialog	access:public	signature:()
+BlurDialog::statusChanged	moc_blur_dialog.cpp	/^void BlurDialog::statusChanged()$/;"	f	line:118	class:BlurDialog	signature:()
+CC	Makefile	/^CC            = gcc$/;"	m	line:11
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m	line:14
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m	line:37
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m	line:24
+COPY	Makefile	/^COPY          = cp -f$/;"	m	line:25
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m	line:28
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m	line:27
+CXX	Makefile	/^CXX           = g++$/;"	m	line:12
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m	line:15
+CannyDialog	edgedetect_dialog.cpp	/^CannyDialog::CannyDialog(int ksize, int lthr, int hthr, int max_lthr, int max_hthr, QWidget *parent) $/;"	f	line:92	class:CannyDialog	signature:(int ksize, int lthr, int hthr, int max_lthr, int max_hthr, QWidget *parent)
+CannyDialog	edgedetect_dialog.h	/^    CannyDialog(int ksize, int lthr, int hthr, int max_lthr, int max_hthr, QWidget *parent=0);$/;"	p	line:45	class:CannyDialog	access:public	signature:(int ksize, int lthr, int hthr, int max_lthr, int max_hthr, QWidget *parent=0)
+CannyDialog	edgedetect_dialog.h	/^class CannyDialog : public QDialog {$/;"	c	line:42	inherits:QDialog
+CannyDialog::CannyDialog	edgedetect_dialog.cpp	/^CannyDialog::CannyDialog(int ksize, int lthr, int hthr, int max_lthr, int max_hthr, QWidget *parent) $/;"	f	line:92	class:CannyDialog	signature:(int ksize, int lthr, int hthr, int max_lthr, int max_hthr, QWidget *parent)
+CannyDialog::CannyDialog	edgedetect_dialog.h	/^    CannyDialog(int ksize, int lthr, int hthr, int max_lthr, int max_hthr, QWidget *parent=0);$/;"	p	line:45	class:CannyDialog	access:public	signature:(int ksize, int lthr, int hthr, int max_lthr, int max_hthr, QWidget *parent=0)
+CannyDialog::getStaticMetaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject &CannyDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:118	class:CannyDialog	signature:()
+CannyDialog::hthrLabel	edgedetect_dialog.h	/^    QLabel *hthrLabel;$/;"	m	line:52	class:CannyDialog	access:private
+CannyDialog::hthrSBx	edgedetect_dialog.h	/^    QSpinBox *hthrSBx;$/;"	m	line:55	class:CannyDialog	access:private
+CannyDialog::hthrSlider	edgedetect_dialog.h	/^    QSlider *hthrSlider;$/;"	m	line:49	class:CannyDialog	access:private
+CannyDialog::ksizeLabel	edgedetect_dialog.h	/^    QLabel *ksizeLabel;$/;"	m	line:50	class:CannyDialog	access:private
+CannyDialog::ksizeSBx	edgedetect_dialog.h	/^    QSpinBox *ksizeSBx;$/;"	m	line:53	class:CannyDialog	access:private
+CannyDialog::ksizeSlider	edgedetect_dialog.h	/^    QSlider *ksizeSlider;$/;"	m	line:47	class:CannyDialog	access:private
+CannyDialog::lthrLabel	edgedetect_dialog.h	/^    QLabel *lthrLabel;$/;"	m	line:51	class:CannyDialog	access:private
+CannyDialog::lthrSBx	edgedetect_dialog.h	/^    QSpinBox *lthrSBx;$/;"	m	line:54	class:CannyDialog	access:private
+CannyDialog::lthrSlider	edgedetect_dialog.h	/^    QSlider *lthrSlider;$/;"	m	line:48	class:CannyDialog	access:private
+CannyDialog::metaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject *CannyDialog::metaObject() const$/;"	f	line:121	class:CannyDialog	signature:() const
+CannyDialog::qt_metacall	moc_edgedetect_dialog.cpp	/^int CannyDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:134	class:CannyDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+CannyDialog::qt_metacast	moc_edgedetect_dialog.cpp	/^void *CannyDialog::qt_metacast(const char *_clname)$/;"	f	line:126	class:CannyDialog	signature:(const char *_clname)
+CannyDialog::qt_static_metacall	moc_edgedetect_dialog.cpp	/^void CannyDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:100	class:CannyDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+CannyDialog::staticMetaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject CannyDialog::staticMetaObject = {$/;"	m	line:112	class:CannyDialog	file:
+CannyDialog::staticMetaObjectExtraData	moc_edgedetect_dialog.cpp	/^const QMetaObjectExtraData CannyDialog::staticMetaObjectExtraData = {$/;"	m	line:108	class:CannyDialog	file:
+DEFINES	Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m	line:13
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m	line:35
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m	line:33
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m	line:108
+DILATE	morphology_dialog.h	/^        DILATE = 1,$/;"	e	line:55	enum:MorphologyDialog::__anon2
+DIST	Makefile	/^DIST          = \/usr\/local\/Trolltech\/Qt-4.8.6\/mkspecs\/common\/unix.conf \\$/;"	m	line:81
+ERODE	morphology_dialog.h	/^        ERODE = 2,$/;"	e	line:56	enum:MorphologyDialog::__anon2
+EdgedetectDialog	edgedetect_dialog.cpp	/^EdgedetectDialog::EdgedetectDialog(cv::Mat& img, QWidget *parent)$/;"	f	line:152	class:EdgedetectDialog	signature:(cv::Mat& img, QWidget *parent)
+EdgedetectDialog	edgedetect_dialog.h	/^    EdgedetectDialog(cv::Mat& img, QWidget *parent=0);$/;"	p	line:62	class:EdgedetectDialog	access:public	signature:(cv::Mat& img, QWidget *parent=0)
+EdgedetectDialog	edgedetect_dialog.h	/^class EdgedetectDialog : public QDialog {$/;"	c	line:58	inherits:QDialog
+EdgedetectDialog::EdgedetectDialog	edgedetect_dialog.cpp	/^EdgedetectDialog::EdgedetectDialog(cv::Mat& img, QWidget *parent)$/;"	f	line:152	class:EdgedetectDialog	signature:(cv::Mat& img, QWidget *parent)
+EdgedetectDialog::EdgedetectDialog	edgedetect_dialog.h	/^    EdgedetectDialog(cv::Mat& img, QWidget *parent=0);$/;"	p	line:62	class:EdgedetectDialog	access:public	signature:(cv::Mat& img, QWidget *parent=0)
+EdgedetectDialog::canny_hthr	edgedetect_dialog.h	/^    int canny_hthr;$/;"	m	line:98	class:EdgedetectDialog	access:private
+EdgedetectDialog::canny_hthrChanged	edgedetect_dialog.cpp	/^void EdgedetectDialog::canny_hthrChanged(int hthr)$/;"	f	line:268	class:EdgedetectDialog	signature:(int hthr)
+EdgedetectDialog::canny_hthrChanged	edgedetect_dialog.h	/^    void canny_hthrChanged(int hthr);$/;"	p	line:77	class:EdgedetectDialog	access:public	signature:(int hthr)
+EdgedetectDialog::canny_hthr_step	edgedetect_dialog.h	/^    static const int canny_hthr_step = 1;$/;"	m	line:101	class:EdgedetectDialog	access:private
+EdgedetectDialog::canny_ksize	edgedetect_dialog.h	/^    int canny_ksize;$/;"	m	line:96	class:EdgedetectDialog	access:private
+EdgedetectDialog::canny_ksizeChanged	edgedetect_dialog.cpp	/^void EdgedetectDialog::canny_ksizeChanged(int ksize)$/;"	f	line:256	class:EdgedetectDialog	signature:(int ksize)
+EdgedetectDialog::canny_ksizeChanged	edgedetect_dialog.h	/^    void canny_ksizeChanged(int ksize);$/;"	p	line:75	class:EdgedetectDialog	access:public	signature:(int ksize)
+EdgedetectDialog::canny_ksize_step	edgedetect_dialog.h	/^    static const int canny_ksize_step = 2;$/;"	m	line:99	class:EdgedetectDialog	access:private
+EdgedetectDialog::canny_lthr	edgedetect_dialog.h	/^    int canny_lthr;$/;"	m	line:97	class:EdgedetectDialog	access:private
+EdgedetectDialog::canny_lthrChanged	edgedetect_dialog.cpp	/^void EdgedetectDialog::canny_lthrChanged(int lthr)$/;"	f	line:262	class:EdgedetectDialog	signature:(int lthr)
+EdgedetectDialog::canny_lthrChanged	edgedetect_dialog.h	/^    void canny_lthrChanged(int lthr);$/;"	p	line:76	class:EdgedetectDialog	access:public	signature:(int lthr)
+EdgedetectDialog::canny_lthr_step	edgedetect_dialog.h	/^    static const int canny_lthr_step = 1;$/;"	m	line:100	class:EdgedetectDialog	access:private
+EdgedetectDialog::closeButton	edgedetect_dialog.h	/^    QPushButton *closeButton;$/;"	m	line:85	class:EdgedetectDialog	access:private
+EdgedetectDialog::closeEdgedetect	edgedetect_dialog.cpp	/^void EdgedetectDialog::closeEdgedetect()$/;"	f	line:207	class:EdgedetectDialog	signature:()
+EdgedetectDialog::closeEdgedetect	edgedetect_dialog.h	/^    void closeEdgedetect();$/;"	p	line:70	class:EdgedetectDialog	access:public	signature:()
+EdgedetectDialog::dialogClosed	edgedetect_dialog.h	/^    void dialogClosed();$/;"	p	line:66	class:EdgedetectDialog	access:public	signature:()
+EdgedetectDialog::dialogClosed	moc_edgedetect_dialog.cpp	/^void EdgedetectDialog::dialogClosed()$/;"	f	line:251	class:EdgedetectDialog	signature:()
+EdgedetectDialog::edge_canny	edgedetect_dialog.cpp	/^void EdgedetectDialog::edge_canny(void)$/;"	f	line:248	class:EdgedetectDialog	signature:(void)
+EdgedetectDialog::edge_canny	edgedetect_dialog.h	/^    void edge_canny(void);$/;"	p	line:81	class:EdgedetectDialog	access:private	signature:(void)
+EdgedetectDialog::edge_detect	edgedetect_dialog.cpp	/^void EdgedetectDialog::edge_detect(void)$/;"	f	line:216	class:EdgedetectDialog	signature:(void)
+EdgedetectDialog::edge_detect	edgedetect_dialog.h	/^    void edge_detect(void);$/;"	p	line:80	class:EdgedetectDialog	access:private	signature:(void)
+EdgedetectDialog::getStaticMetaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject &EdgedetectDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:215	class:EdgedetectDialog	signature:()
+EdgedetectDialog::gray_image	edgedetect_dialog.h	/^    cv::Mat gray_image;$/;"	m	line:104	class:EdgedetectDialog	access:private
+EdgedetectDialog::image	edgedetect_dialog.h	/^    cv::Mat image;$/;"	m	line:103	class:EdgedetectDialog	access:private
+EdgedetectDialog::log_delta	edgedetect_dialog.h	/^    double log_delta;$/;"	m	line:89	class:EdgedetectDialog	access:private
+EdgedetectDialog::log_deltaChanged	edgedetect_dialog.cpp	/^void EdgedetectDialog::log_deltaChanged(int delta)$/;"	f	line:236	class:EdgedetectDialog	signature:(int delta)
+EdgedetectDialog::log_deltaChanged	edgedetect_dialog.h	/^    void log_deltaChanged(int delta);$/;"	p	line:73	class:EdgedetectDialog	access:public	signature:(int delta)
+EdgedetectDialog::log_delta_step	edgedetect_dialog.h	/^    static const double log_delta_step = 0.5;$/;"	m	line:93	class:EdgedetectDialog	access:private
+EdgedetectDialog::log_ksize	edgedetect_dialog.h	/^    int log_ksize;$/;"	m	line:87	class:EdgedetectDialog	access:private
+EdgedetectDialog::log_ksizeChanged	edgedetect_dialog.cpp	/^void EdgedetectDialog::log_ksizeChanged(int ksize)$/;"	f	line:224	class:EdgedetectDialog	signature:(int ksize)
+EdgedetectDialog::log_ksizeChanged	edgedetect_dialog.h	/^    void log_ksizeChanged(int ksize);$/;"	p	line:71	class:EdgedetectDialog	access:public	signature:(int ksize)
+EdgedetectDialog::log_ksize_step	edgedetect_dialog.h	/^    static const int log_ksize_step = 2;$/;"	m	line:91	class:EdgedetectDialog	access:private
+EdgedetectDialog::log_scale	edgedetect_dialog.h	/^    double log_scale;$/;"	m	line:88	class:EdgedetectDialog	access:private
+EdgedetectDialog::log_scaleChanged	edgedetect_dialog.cpp	/^void EdgedetectDialog::log_scaleChanged(int scale)$/;"	f	line:230	class:EdgedetectDialog	signature:(int scale)
+EdgedetectDialog::log_scaleChanged	edgedetect_dialog.h	/^    void log_scaleChanged(int scale);$/;"	p	line:72	class:EdgedetectDialog	access:public	signature:(int scale)
+EdgedetectDialog::log_scale_step	edgedetect_dialog.h	/^    static const double log_scale_step = 0.5;$/;"	m	line:92	class:EdgedetectDialog	access:private
+EdgedetectDialog::log_thr	edgedetect_dialog.h	/^    int log_thr;$/;"	m	line:90	class:EdgedetectDialog	access:private
+EdgedetectDialog::log_thrChanged	edgedetect_dialog.cpp	/^void EdgedetectDialog::log_thrChanged(int thr)$/;"	f	line:242	class:EdgedetectDialog	signature:(int thr)
+EdgedetectDialog::log_thrChanged	edgedetect_dialog.h	/^    void log_thrChanged(int thr);$/;"	p	line:74	class:EdgedetectDialog	access:public	signature:(int thr)
+EdgedetectDialog::log_thr_step	edgedetect_dialog.h	/^    static const int log_thr_step = 1;$/;"	m	line:94	class:EdgedetectDialog	access:private
+EdgedetectDialog::metaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject *EdgedetectDialog::metaObject() const$/;"	f	line:218	class:EdgedetectDialog	signature:() const
+EdgedetectDialog::okButton	edgedetect_dialog.h	/^    QPushButton *okButton;$/;"	m	line:84	class:EdgedetectDialog	access:private
+EdgedetectDialog::okClicked	edgedetect_dialog.cpp	/^void EdgedetectDialog::okClicked()$/;"	f	line:201	class:EdgedetectDialog	signature:()
+EdgedetectDialog::okClicked	edgedetect_dialog.h	/^    void okClicked();$/;"	p	line:69	class:EdgedetectDialog	access:public	signature:()
+EdgedetectDialog::pimage	edgedetect_dialog.h	/^    cv::Mat *pimage;$/;"	m	line:105	class:EdgedetectDialog	access:private
+EdgedetectDialog::qt_metacall	moc_edgedetect_dialog.cpp	/^int EdgedetectDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:231	class:EdgedetectDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+EdgedetectDialog::qt_metacast	moc_edgedetect_dialog.cpp	/^void *EdgedetectDialog::qt_metacast(const char *_clname)$/;"	f	line:223	class:EdgedetectDialog	signature:(const char *_clname)
+EdgedetectDialog::qt_static_metacall	moc_edgedetect_dialog.cpp	/^void EdgedetectDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:183	class:EdgedetectDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+EdgedetectDialog::staticMetaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject EdgedetectDialog::staticMetaObject = {$/;"	m	line:209	class:EdgedetectDialog	file:
+EdgedetectDialog::staticMetaObjectExtraData	moc_edgedetect_dialog.cpp	/^const QMetaObjectExtraData EdgedetectDialog::staticMetaObjectExtraData = {$/;"	m	line:205	class:EdgedetectDialog	file:
+EdgedetectDialog::statusChanged	edgedetect_dialog.h	/^    void statusChanged();$/;"	p	line:65	class:EdgedetectDialog	access:public	signature:()
+EdgedetectDialog::statusChanged	moc_edgedetect_dialog.cpp	/^void EdgedetectDialog::statusChanged()$/;"	f	line:245	class:EdgedetectDialog	signature:()
+EdgedetectDialog::tabWidget	edgedetect_dialog.h	/^    QTabWidget *tabWidget;$/;"	m	line:83	class:EdgedetectDialog	access:private
+FacedetectDialog	facedetect_dialog.cpp	/^FacedetectDialog::FacedetectDialog(cv::Mat& img, QWidget *parent)$/;"	f	line:23	class:FacedetectDialog	signature:(cv::Mat& img, QWidget *parent)
+FacedetectDialog	facedetect_dialog.h	/^    FacedetectDialog(cv::Mat& img, QWidget *parent=0);$/;"	p	line:21	class:FacedetectDialog	access:public	signature:(cv::Mat& img, QWidget *parent=0)
+FacedetectDialog	facedetect_dialog.h	/^class FacedetectDialog : public QDialog {$/;"	c	line:18	inherits:QDialog
+FacedetectDialog::FacedetectDialog	facedetect_dialog.cpp	/^FacedetectDialog::FacedetectDialog(cv::Mat& img, QWidget *parent)$/;"	f	line:23	class:FacedetectDialog	signature:(cv::Mat& img, QWidget *parent)
+FacedetectDialog::FacedetectDialog	facedetect_dialog.h	/^    FacedetectDialog(cv::Mat& img, QWidget *parent=0);$/;"	p	line:21	class:FacedetectDialog	access:public	signature:(cv::Mat& img, QWidget *parent=0)
+FacedetectDialog::closeButton	facedetect_dialog.h	/^    QPushButton *closeButton;$/;"	m	line:33	class:FacedetectDialog	access:private
+FacedetectDialog::closeClicked	facedetect_dialog.cpp	/^void FacedetectDialog::closeClicked()$/;"	f	line:103	class:FacedetectDialog	signature:()
+FacedetectDialog::closeClicked	facedetect_dialog.h	/^    void closeClicked();$/;"	p	line:24	class:FacedetectDialog	access:public	signature:()
+FacedetectDialog::dialogClosed	facedetect_dialog.h	/^    void dialogClosed();$/;"	p	line:27	class:FacedetectDialog	access:public	signature:()
+FacedetectDialog::dialogClosed	moc_facedetect_dialog.cpp	/^void FacedetectDialog::dialogClosed()$/;"	f	line:110	class:FacedetectDialog	signature:()
+FacedetectDialog::facedetect	facedetect_dialog.cpp	/^void FacedetectDialog::facedetect()$/;"	f	line:54	class:FacedetectDialog	signature:()
+FacedetectDialog::facedetect	facedetect_dialog.h	/^    void facedetect();$/;"	p	line:30	class:FacedetectDialog	access:private	signature:()
+FacedetectDialog::getStaticMetaObject	moc_facedetect_dialog.cpp	/^const QMetaObject &FacedetectDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:74	class:FacedetectDialog	signature:()
+FacedetectDialog::gray_image	facedetect_dialog.h	/^    cv::Mat gray_image;$/;"	m	line:36	class:FacedetectDialog	access:private
+FacedetectDialog::image	facedetect_dialog.h	/^    cv::Mat image;$/;"	m	line:35	class:FacedetectDialog	access:private
+FacedetectDialog::metaObject	moc_facedetect_dialog.cpp	/^const QMetaObject *FacedetectDialog::metaObject() const$/;"	f	line:77	class:FacedetectDialog	signature:() const
+FacedetectDialog::okButton	facedetect_dialog.h	/^    QPushButton *okButton;$/;"	m	line:32	class:FacedetectDialog	access:private
+FacedetectDialog::okClicked	facedetect_dialog.cpp	/^void FacedetectDialog::okClicked()$/;"	f	line:96	class:FacedetectDialog	signature:()
+FacedetectDialog::okClicked	facedetect_dialog.h	/^    void okClicked();$/;"	p	line:23	class:FacedetectDialog	access:public	signature:()
+FacedetectDialog::pimage	facedetect_dialog.h	/^    cv::Mat *pimage;$/;"	m	line:37	class:FacedetectDialog	access:private
+FacedetectDialog::qt_metacall	moc_facedetect_dialog.cpp	/^int FacedetectDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:90	class:FacedetectDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+FacedetectDialog::qt_metacast	moc_facedetect_dialog.cpp	/^void *FacedetectDialog::qt_metacast(const char *_clname)$/;"	f	line:82	class:FacedetectDialog	signature:(const char *_clname)
+FacedetectDialog::qt_static_metacall	moc_facedetect_dialog.cpp	/^void FacedetectDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:48	class:FacedetectDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+FacedetectDialog::staticMetaObject	moc_facedetect_dialog.cpp	/^const QMetaObject FacedetectDialog::staticMetaObject = {$/;"	m	line:68	class:FacedetectDialog	file:
+FacedetectDialog::staticMetaObjectExtraData	moc_facedetect_dialog.cpp	/^const QMetaObjectExtraData FacedetectDialog::staticMetaObjectExtraData = {$/;"	m	line:64	class:FacedetectDialog	file:
+FacedetectDialog::statusChanged	facedetect_dialog.h	/^    void statusChanged();$/;"	p	line:26	class:FacedetectDialog	access:public	signature:()
+FacedetectDialog::statusChanged	moc_facedetect_dialog.cpp	/^void FacedetectDialog::statusChanged()$/;"	f	line:104	class:FacedetectDialog	signature:()
+HisteqDialog	histeq_dialog.cpp	/^HisteqDialog::HisteqDialog(cv::Mat& img, QWidget *parent)$/;"	f	line:24	class:HisteqDialog	signature:(cv::Mat& img, QWidget *parent)
+HisteqDialog	histeq_dialog.h	/^    HisteqDialog(cv::Mat& img, QWidget* parent=0);$/;"	p	line:23	class:HisteqDialog	access:public	signature:(cv::Mat& img, QWidget* parent=0)
+HisteqDialog	histeq_dialog.h	/^class HisteqDialog : public QDialog {$/;"	c	line:19	inherits:QDialog
+HisteqDialog::HisteqDialog	histeq_dialog.cpp	/^HisteqDialog::HisteqDialog(cv::Mat& img, QWidget *parent)$/;"	f	line:24	class:HisteqDialog	signature:(cv::Mat& img, QWidget *parent)
+HisteqDialog::HisteqDialog	histeq_dialog.h	/^    HisteqDialog(cv::Mat& img, QWidget* parent=0);$/;"	p	line:23	class:HisteqDialog	access:public	signature:(cv::Mat& img, QWidget* parent=0)
+HisteqDialog::closeButton	histeq_dialog.h	/^    QPushButton *closeButton;$/;"	m	line:40	class:HisteqDialog	access:private
+HisteqDialog::closeClicked	histeq_dialog.cpp	/^void HisteqDialog::closeClicked()$/;"	f	line:130	class:HisteqDialog	signature:()
+HisteqDialog::closeClicked	histeq_dialog.h	/^    void closeClicked();$/;"	p	line:26	class:HisteqDialog	access:public	signature:()
+HisteqDialog::dialogClosed	histeq_dialog.h	/^    void dialogClosed();$/;"	p	line:29	class:HisteqDialog	access:public	signature:()
+HisteqDialog::dialogClosed	moc_histeq_dialog.cpp	/^void HisteqDialog::dialogClosed()$/;"	f	line:110	class:HisteqDialog	signature:()
+HisteqDialog::getStaticMetaObject	moc_histeq_dialog.cpp	/^const QMetaObject &HisteqDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:74	class:HisteqDialog	signature:()
+HisteqDialog::gray_image	histeq_dialog.h	/^    cv::Mat gray_image;$/;"	m	line:43	class:HisteqDialog	access:private
+HisteqDialog::hist_graph	histeq_dialog.cpp	/^void HisteqDialog::hist_graph()$/;"	f	line:91	class:HisteqDialog	signature:()
+HisteqDialog::hist_graph	histeq_dialog.h	/^    void hist_graph();$/;"	p	line:34	class:HisteqDialog	access:private	signature:()
+HisteqDialog::hist_graph_color	histeq_dialog.cpp	/^void HisteqDialog::hist_graph_color(Mat& img)$/;"	f	line:86	class:HisteqDialog	signature:(Mat& img)
+HisteqDialog::hist_graph_color	histeq_dialog.h	/^    void hist_graph_color(cv::Mat& img);$/;"	p	line:33	class:HisteqDialog	access:private	signature:(cv::Mat& img)
+HisteqDialog::hist_graph_gray	histeq_dialog.cpp	/^void HisteqDialog::hist_graph_gray(Mat& img, Mat& hist, QLabel *label)$/;"	f	line:59	class:HisteqDialog	signature:(Mat& img, Mat& hist, QLabel *label)
+HisteqDialog::hist_graph_gray	histeq_dialog.h	/^    void hist_graph_gray(cv::Mat& img, cv::Mat& hist, QLabel *label);$/;"	p	line:32	class:HisteqDialog	access:private	signature:(cv::Mat& img, cv::Mat& hist, QLabel *label)
+HisteqDialog::histeq	histeq_dialog.cpp	/^void HisteqDialog::histeq()$/;"	f	line:111	class:HisteqDialog	signature:()
+HisteqDialog::histeq	histeq_dialog.h	/^    void histeq(void);$/;"	p	line:37	class:HisteqDialog	access:private	signature:(void)
+HisteqDialog::histeq_color	histeq_dialog.cpp	/^void HisteqDialog::histeq_color(Mat& img)$/;"	f	line:106	class:HisteqDialog	signature:(Mat& img)
+HisteqDialog::histeq_color	histeq_dialog.h	/^    void histeq_color(cv::Mat& img);$/;"	p	line:36	class:HisteqDialog	access:private	signature:(cv::Mat& img)
+HisteqDialog::histeq_gray	histeq_dialog.cpp	/^void HisteqDialog::histeq_gray(Mat& img)$/;"	f	line:101	class:HisteqDialog	signature:(Mat& img)
+HisteqDialog::histeq_gray	histeq_dialog.h	/^    void histeq_gray(cv::Mat& img);$/;"	p	line:35	class:HisteqDialog	access:private	signature:(cv::Mat& img)
+HisteqDialog::image	histeq_dialog.h	/^    cv::Mat image;$/;"	m	line:42	class:HisteqDialog	access:private
+HisteqDialog::metaObject	moc_histeq_dialog.cpp	/^const QMetaObject *HisteqDialog::metaObject() const$/;"	f	line:77	class:HisteqDialog	signature:() const
+HisteqDialog::okButton	histeq_dialog.h	/^    QPushButton *okButton;$/;"	m	line:39	class:HisteqDialog	access:private
+HisteqDialog::okClicked	histeq_dialog.cpp	/^void HisteqDialog::okClicked()$/;"	f	line:122	class:HisteqDialog	signature:()
+HisteqDialog::okClicked	histeq_dialog.h	/^    void okClicked();$/;"	p	line:25	class:HisteqDialog	access:public	signature:()
+HisteqDialog::pimage	histeq_dialog.h	/^    cv::Mat *pimage;$/;"	m	line:44	class:HisteqDialog	access:private
+HisteqDialog::qt_metacall	moc_histeq_dialog.cpp	/^int HisteqDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:90	class:HisteqDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+HisteqDialog::qt_metacast	moc_histeq_dialog.cpp	/^void *HisteqDialog::qt_metacast(const char *_clname)$/;"	f	line:82	class:HisteqDialog	signature:(const char *_clname)
+HisteqDialog::qt_static_metacall	moc_histeq_dialog.cpp	/^void HisteqDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:48	class:HisteqDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+HisteqDialog::staticMetaObject	moc_histeq_dialog.cpp	/^const QMetaObject HisteqDialog::staticMetaObject = {$/;"	m	line:68	class:HisteqDialog	file:
+HisteqDialog::staticMetaObjectExtraData	moc_histeq_dialog.cpp	/^const QMetaObjectExtraData HisteqDialog::staticMetaObjectExtraData = {$/;"	m	line:64	class:HisteqDialog	file:
+HisteqDialog::statusChanged	histeq_dialog.h	/^    void statusChanged();$/;"	p	line:28	class:HisteqDialog	access:public	signature:()
+HisteqDialog::statusChanged	moc_histeq_dialog.cpp	/^void HisteqDialog::statusChanged()$/;"	f	line:104	class:HisteqDialog	signature:()
+HoughDialog	hough_dialog.cpp	/^HoughDialog::HoughDialog(cv::Mat& img, QWidget *parent)$/;"	f	line:17	class:HoughDialog	signature:(cv::Mat& img, QWidget *parent)
+HoughDialog	hough_dialog.h	/^    HoughDialog(cv::Mat& img, QWidget *parent=0);$/;"	p	line:26	class:HoughDialog	access:public	signature:(cv::Mat& img, QWidget *parent=0)
+HoughDialog	hough_dialog.h	/^class HoughDialog : public QDialog {$/;"	c	line:23	inherits:QDialog
+HoughDialog::HoughDialog	hough_dialog.cpp	/^HoughDialog::HoughDialog(cv::Mat& img, QWidget *parent)$/;"	f	line:17	class:HoughDialog	signature:(cv::Mat& img, QWidget *parent)
+HoughDialog::HoughDialog	hough_dialog.h	/^    HoughDialog(cv::Mat& img, QWidget *parent=0);$/;"	p	line:26	class:HoughDialog	access:public	signature:(cv::Mat& img, QWidget *parent=0)
+HoughDialog::closeButton	hough_dialog.h	/^    QPushButton *closeButton;$/;"	m	line:53	class:HoughDialog	access:private
+HoughDialog::closeClicked	hough_dialog.cpp	/^void HoughDialog::closeClicked()$/;"	f	line:204	class:HoughDialog	signature:()
+HoughDialog::closeClicked	hough_dialog.h	/^    void closeClicked();$/;"	p	line:32	class:HoughDialog	access:public	signature:()
+HoughDialog::dialogClosed	hough_dialog.h	/^    void dialogClosed();$/;"	p	line:29	class:HoughDialog	access:public	signature:()
+HoughDialog::dialogClosed	moc_hough_dialog.cpp	/^void HoughDialog::dialogClosed()$/;"	f	line:127	class:HoughDialog	signature:()
+HoughDialog::ex_win	hough_dialog.h	/^    QGroupBox *ex_win;$/;"	m	line:81	class:HoughDialog	access:private
+HoughDialog::getStaticMetaObject	moc_hough_dialog.cpp	/^const QMetaObject &HoughDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:91	class:HoughDialog	signature:()
+HoughDialog::gray_image	hough_dialog.h	/^    cv::Mat gray_image;$/;"	m	line:84	class:HoughDialog	access:private
+HoughDialog::hough	hough_dialog.cpp	/^void HoughDialog::hough()$/;"	f	line:260	class:HoughDialog	signature:()
+HoughDialog::hough	hough_dialog.h	/^    void hough(void);$/;"	p	line:41	class:HoughDialog	access:private	signature:(void)
+HoughDialog::hthr	hough_dialog.h	/^    int hthr;$/;"	m	line:76	class:HoughDialog	access:private
+HoughDialog::hthrChanged	hough_dialog.cpp	/^void HoughDialog::hthrChanged(int value)$/;"	f	line:254	class:HoughDialog	signature:(int value)
+HoughDialog::hthrChanged	hough_dialog.h	/^    void hthrChanged(int value);$/;"	p	line:39	class:HoughDialog	access:public	signature:(int value)
+HoughDialog::hthrEdit	hough_dialog.h	/^    QSpinBox *hthrEdit;$/;"	m	line:71	class:HoughDialog	access:private
+HoughDialog::hthrLabel	hough_dialog.h	/^    QLabel *hthrLabel;$/;"	m	line:65	class:HoughDialog	access:private
+HoughDialog::hthrSlider	hough_dialog.h	/^    QSlider *hthrSlider;$/;"	m	line:68	class:HoughDialog	access:private
+HoughDialog::hthr_step	hough_dialog.h	/^    static const int hthr_step = 1;$/;"	m	line:79	class:HoughDialog	access:private
+HoughDialog::image	hough_dialog.h	/^    cv::Mat image;$/;"	m	line:83	class:HoughDialog	access:private
+HoughDialog::ksize	hough_dialog.h	/^    double ksize;$/;"	m	line:74	class:HoughDialog	access:private
+HoughDialog::ksizeChanged	hough_dialog.cpp	/^void HoughDialog::ksizeChanged(int value)$/;"	f	line:242	class:HoughDialog	signature:(int value)
+HoughDialog::ksizeChanged	hough_dialog.h	/^    void ksizeChanged(int value);$/;"	p	line:37	class:HoughDialog	access:public	signature:(int value)
+HoughDialog::ksizeEdit	hough_dialog.h	/^    QSpinBox *ksizeEdit;$/;"	m	line:69	class:HoughDialog	access:private
+HoughDialog::ksizeLabel	hough_dialog.h	/^    QLabel *ksizeLabel;$/;"	m	line:63	class:HoughDialog	access:private
+HoughDialog::ksizeSlider	hough_dialog.h	/^    QSlider *ksizeSlider;$/;"	m	line:66	class:HoughDialog	access:private
+HoughDialog::ksize_step	hough_dialog.h	/^    static const int ksize_step = 2;$/;"	m	line:77	class:HoughDialog	access:private
+HoughDialog::lthr	hough_dialog.h	/^    double lthr;$/;"	m	line:75	class:HoughDialog	access:private
+HoughDialog::lthrChanged	hough_dialog.cpp	/^void HoughDialog::lthrChanged(int value)$/;"	f	line:248	class:HoughDialog	signature:(int value)
+HoughDialog::lthrChanged	hough_dialog.h	/^    void lthrChanged(int value);$/;"	p	line:38	class:HoughDialog	access:public	signature:(int value)
+HoughDialog::lthrEdit	hough_dialog.h	/^    QSpinBox *lthrEdit;$/;"	m	line:70	class:HoughDialog	access:private
+HoughDialog::lthrLabel	hough_dialog.h	/^    QLabel *lthrLabel;$/;"	m	line:64	class:HoughDialog	access:private
+HoughDialog::lthrSlider	hough_dialog.h	/^    QSlider *lthrSlider;$/;"	m	line:67	class:HoughDialog	access:private
+HoughDialog::lthr_step	hough_dialog.h	/^    static const int lthr_step = 1;$/;"	m	line:78	class:HoughDialog	access:private
+HoughDialog::mainLayout	hough_dialog.h	/^    QHBoxLayout *mainLayout;$/;"	m	line:80	class:HoughDialog	access:private
+HoughDialog::metaObject	moc_hough_dialog.cpp	/^const QMetaObject *HoughDialog::metaObject() const$/;"	f	line:94	class:HoughDialog	signature:() const
+HoughDialog::moreButton	hough_dialog.h	/^    QPushButton *moreButton;$/;"	m	line:72	class:HoughDialog	access:private
+HoughDialog::moreClicked	hough_dialog.cpp	/^void HoughDialog::moreClicked()$/;"	f	line:213	class:HoughDialog	signature:()
+HoughDialog::moreClicked	hough_dialog.h	/^    void moreClicked();$/;"	p	line:33	class:HoughDialog	access:public	signature:()
+HoughDialog::okButton	hough_dialog.h	/^    QPushButton *okButton;$/;"	m	line:52	class:HoughDialog	access:private
+HoughDialog::okClicked	hough_dialog.cpp	/^void HoughDialog::okClicked()$/;"	f	line:198	class:HoughDialog	signature:()
+HoughDialog::okClicked	hough_dialog.h	/^    void okClicked();$/;"	p	line:31	class:HoughDialog	access:public	signature:()
+HoughDialog::pimage	hough_dialog.h	/^    cv::Mat *pimage;$/;"	m	line:85	class:HoughDialog	access:private
+HoughDialog::qt_metacall	moc_hough_dialog.cpp	/^int HoughDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:107	class:HoughDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+HoughDialog::qt_metacast	moc_hough_dialog.cpp	/^void *HoughDialog::qt_metacast(const char *_clname)$/;"	f	line:99	class:HoughDialog	signature:(const char *_clname)
+HoughDialog::qt_static_metacall	moc_hough_dialog.cpp	/^void HoughDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:59	class:HoughDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+HoughDialog::rho	hough_dialog.h	/^    double rho;$/;"	m	line:55	class:HoughDialog	access:private
+HoughDialog::rhoChanged	hough_dialog.cpp	/^void HoughDialog::rhoChanged(int value)$/;"	f	line:223	class:HoughDialog	signature:(int value)
+HoughDialog::rhoChanged	hough_dialog.h	/^    void rhoChanged(int value);$/;"	p	line:34	class:HoughDialog	access:public	signature:(int value)
+HoughDialog::rhoEdit	hough_dialog.h	/^    QSpinBox *rhoEdit;$/;"	m	line:49	class:HoughDialog	access:private
+HoughDialog::rhoLabel	hough_dialog.h	/^    QLabel *rhoLabel;$/;"	m	line:43	class:HoughDialog	access:private
+HoughDialog::rhoSlider	hough_dialog.h	/^    QSlider *rhoSlider;$/;"	m	line:46	class:HoughDialog	access:private
+HoughDialog::rho_step	hough_dialog.h	/^    static const double rho_step = 1;$/;"	m	line:58	class:HoughDialog	access:private
+HoughDialog::staticMetaObject	moc_hough_dialog.cpp	/^const QMetaObject HoughDialog::staticMetaObject = {$/;"	m	line:85	class:HoughDialog	file:
+HoughDialog::staticMetaObjectExtraData	moc_hough_dialog.cpp	/^const QMetaObjectExtraData HoughDialog::staticMetaObjectExtraData = {$/;"	m	line:81	class:HoughDialog	file:
+HoughDialog::statusChanged	hough_dialog.h	/^    void statusChanged();$/;"	p	line:28	class:HoughDialog	access:public	signature:()
+HoughDialog::statusChanged	moc_hough_dialog.cpp	/^void HoughDialog::statusChanged()$/;"	f	line:121	class:HoughDialog	signature:()
+HoughDialog::theta	hough_dialog.h	/^    double theta;$/;"	m	line:56	class:HoughDialog	access:private
+HoughDialog::thetaChanged	hough_dialog.cpp	/^void HoughDialog::thetaChanged(int value)$/;"	f	line:229	class:HoughDialog	signature:(int value)
+HoughDialog::thetaChanged	hough_dialog.h	/^    void thetaChanged(int value);$/;"	p	line:35	class:HoughDialog	access:public	signature:(int value)
+HoughDialog::thetaEdit	hough_dialog.h	/^    QSpinBox *thetaEdit;$/;"	m	line:50	class:HoughDialog	access:private
+HoughDialog::thetaLabel	hough_dialog.h	/^    QLabel *thetaLabel;$/;"	m	line:44	class:HoughDialog	access:private
+HoughDialog::thetaSlider	hough_dialog.h	/^    QSlider *thetaSlider;$/;"	m	line:47	class:HoughDialog	access:private
+HoughDialog::theta_step	hough_dialog.h	/^    static const double theta_step = CV_PI\/360;$/;"	m	line:59	class:HoughDialog	access:private
+HoughDialog::thr	hough_dialog.h	/^    int thr;$/;"	m	line:57	class:HoughDialog	access:private
+HoughDialog::thrChanged	hough_dialog.cpp	/^void HoughDialog::thrChanged(int value)$/;"	f	line:235	class:HoughDialog	signature:(int value)
+HoughDialog::thrChanged	hough_dialog.h	/^    void thrChanged(int value);$/;"	p	line:36	class:HoughDialog	access:public	signature:(int value)
+HoughDialog::thrEdit	hough_dialog.h	/^    QSpinBox *thrEdit;$/;"	m	line:51	class:HoughDialog	access:private
+HoughDialog::thrLabel	hough_dialog.h	/^    QLabel *thrLabel;$/;"	m	line:45	class:HoughDialog	access:private
+HoughDialog::thrSlider	hough_dialog.h	/^    QSlider *thrSlider;$/;"	m	line:48	class:HoughDialog	access:private
+HoughDialog::thr_step	hough_dialog.h	/^    static const int thr_step = 1;$/;"	m	line:60	class:HoughDialog	access:private
+INCPATH	Makefile	/^INCPATH       = -I\/usr\/local\/Trolltech\/Qt-4.8.6\/mkspecs\/linux-g++ -I. -I\/usr\/local\/Trolltech\/Qt-4.8.6\/include\/QtCore -I\/usr\/local\/Trolltech\/Qt-4.8.6\/include\/QtGui -I\/usr\/local\/Trolltech\/Qt-4.8.6\/include -I. -I\/usr\/local\/include\/opencv -I\/usr\/local\/include\/opencv2 -I.$/;"	m	line:16
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m	line:31
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m	line:30
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m	line:32
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-O1 -Wl,-rpath,\/usr\/local\/Trolltech\/Qt-4.8.6\/lib$/;"	m	line:18
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/local\/Trolltech\/Qt-4.8.6\/lib -L\/usr\/local\/lib\/ -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_objdetect -lQtGui -L\/usr\/local\/Trolltech\/Qt-4.8.6\/lib -L\/usr\/X11R6\/lib -lQtCore -lpthread $/;"	m	line:19
+LINK	Makefile	/^LINK          = g++$/;"	m	line:17
+LOGDialog	edgedetect_dialog.cpp	/^LOGDialog::LOGDialog(int ksize, double scale, double delta, QWidget *parent)$/;"	f	line:15	class:LOGDialog	signature:(int ksize, double scale, double delta, QWidget *parent)
+LOGDialog	edgedetect_dialog.h	/^    LOGDialog(int ksize, double scale, double delta, QWidget *parent=0);$/;"	p	line:26	class:LOGDialog	access:public	signature:(int ksize, double scale, double delta, QWidget *parent=0)
+LOGDialog	edgedetect_dialog.h	/^class LOGDialog : public QDialog {$/;"	c	line:22	inherits:QDialog
+LOGDialog::LOGDialog	edgedetect_dialog.cpp	/^LOGDialog::LOGDialog(int ksize, double scale, double delta, QWidget *parent)$/;"	f	line:15	class:LOGDialog	signature:(int ksize, double scale, double delta, QWidget *parent)
+LOGDialog::LOGDialog	edgedetect_dialog.h	/^    LOGDialog(int ksize, double scale, double delta, QWidget *parent=0);$/;"	p	line:26	class:LOGDialog	access:public	signature:(int ksize, double scale, double delta, QWidget *parent=0)
+LOGDialog::getStaticMetaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject &LOGDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:57	class:LOGDialog	signature:()
+LOGDialog::log_deltaLabel	edgedetect_dialog.h	/^    QLabel *log_deltaLabel;$/;"	m	line:34	class:LOGDialog	access:private
+LOGDialog::log_deltaSBx	edgedetect_dialog.h	/^    QSpinBox *log_deltaSBx;$/;"	m	line:38	class:LOGDialog	access:private
+LOGDialog::log_deltaSlider	edgedetect_dialog.h	/^    QSlider *log_deltaSlider;$/;"	m	line:30	class:LOGDialog	access:private
+LOGDialog::log_ksizeLabel	edgedetect_dialog.h	/^    QLabel *log_ksizeLabel;$/;"	m	line:32	class:LOGDialog	access:private
+LOGDialog::log_ksizeSBx	edgedetect_dialog.h	/^    QSpinBox *log_ksizeSBx;$/;"	m	line:36	class:LOGDialog	access:private
+LOGDialog::log_ksizeSlider	edgedetect_dialog.h	/^    QSlider *log_ksizeSlider;$/;"	m	line:28	class:LOGDialog	access:private
+LOGDialog::log_scaleLabel	edgedetect_dialog.h	/^    QLabel *log_scaleLabel;$/;"	m	line:33	class:LOGDialog	access:private
+LOGDialog::log_scaleSBx	edgedetect_dialog.h	/^    QSpinBox *log_scaleSBx;$/;"	m	line:37	class:LOGDialog	access:private
+LOGDialog::log_scaleSlider	edgedetect_dialog.h	/^    QSlider *log_scaleSlider;$/;"	m	line:29	class:LOGDialog	access:private
+LOGDialog::metaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject *LOGDialog::metaObject() const$/;"	f	line:60	class:LOGDialog	signature:() const
+LOGDialog::qt_metacall	moc_edgedetect_dialog.cpp	/^int LOGDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:73	class:LOGDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+LOGDialog::qt_metacast	moc_edgedetect_dialog.cpp	/^void *LOGDialog::qt_metacast(const char *_clname)$/;"	f	line:65	class:LOGDialog	signature:(const char *_clname)
+LOGDialog::qt_static_metacall	moc_edgedetect_dialog.cpp	/^void LOGDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:39	class:LOGDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+LOGDialog::staticMetaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject LOGDialog::staticMetaObject = {$/;"	m	line:51	class:LOGDialog	file:
+LOGDialog::staticMetaObjectExtraData	moc_edgedetect_dialog.cpp	/^const QMetaObjectExtraData LOGDialog::staticMetaObjectExtraData = {$/;"	m	line:47	class:LOGDialog	file:
+LOGDialog::thrLabel	edgedetect_dialog.h	/^    QLabel *thrLabel;$/;"	m	line:35	class:LOGDialog	access:private
+LOGDialog::thrSBx	edgedetect_dialog.h	/^    QSpinBox *thrSBx;$/;"	m	line:39	class:LOGDialog	access:private
+LOGDialog::thrSlider	edgedetect_dialog.h	/^    QSlider *thrSlider;$/;"	m	line:31	class:LOGDialog	access:private
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m	line:38
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m	line:36
+MainWindow	main_window.cpp	/^MainWindow::MainWindow()$/;"	f	line:29	class:MainWindow	signature:()
+MainWindow	main_window.h	/^    MainWindow();$/;"	p	line:37	class:MainWindow	access:public	signature:()
+MainWindow	main_window.h	/^class MainWindow : public QMainWindow$/;"	c	line:32	inherits:QMainWindow
+MainWindow::MainWindow	main_window.cpp	/^MainWindow::MainWindow()$/;"	f	line:29	class:MainWindow	signature:()
+MainWindow::MainWindow	main_window.h	/^    MainWindow();$/;"	p	line:37	class:MainWindow	access:public	signature:()
+MainWindow::Mat2QImage	main_window.cpp	/^QImage MainWindow::Mat2QImage(Mat& image)$/;"	f	line:376	class:MainWindow	signature:(Mat& image)
+MainWindow::Mat2QImage	main_window.h	/^    QImage Mat2QImage(Mat& image);$/;"	p	line:78	class:MainWindow	access:private	signature:(Mat& image)
+MainWindow::about	main_window.cpp	/^void MainWindow::about()$/;"	f	line:268	class:MainWindow	signature:()
+MainWindow::about	main_window.h	/^    void about();$/;"	p	line:69	class:MainWindow	access:private	signature:()
+MainWindow::aboutAction	main_window.h	/^    QAction *aboutAction;$/;"	m	line:114	class:MainWindow	access:private
+MainWindow::backward	main_window.cpp	/^void MainWindow::backward()$/;"	f	line:492	class:MainWindow	signature:()
+MainWindow::backward	main_window.h	/^    void backward();$/;"	p	line:56	class:MainWindow	access:private	signature:()
+MainWindow::backwardAction	main_window.h	/^    QAction *backwardAction;$/;"	m	line:117	class:MainWindow	access:private
+MainWindow::blurAction	main_window.h	/^    QAction *blurAction;$/;"	m	line:111	class:MainWindow	access:private
+MainWindow::blurDlg	main_window.h	/^    BlurDialog *blurDlg;$/;"	m	line:95	class:MainWindow	access:private
+MainWindow::bluropt	main_window.cpp	/^void MainWindow::bluropt()$/;"	f	line:189	class:MainWindow	signature:()
+MainWindow::bluropt	main_window.h	/^    void bluropt();$/;"	p	line:53	class:MainWindow	access:private	signature:()
+MainWindow::cam_on	main_window.h	/^    bool cam_on;$/;"	m	line:87	class:MainWindow	access:private
+MainWindow::cam_save	main_window.h	/^    bool cam_save;$/;"	m	line:88	class:MainWindow	access:private
+MainWindow::cam_timer	main_window.h	/^    QTimer *cam_timer;$/;"	m	line:122	class:MainWindow	access:private
+MainWindow::cameraAction	main_window.h	/^    QAction *cameraAction;$/;"	m	line:113	class:MainWindow	access:private
+MainWindow::camera_start	main_window.cpp	/^void MainWindow::camera_start()$/;"	f	line:499	class:MainWindow	signature:()
+MainWindow::camera_start	main_window.h	/^    void camera_start(void);$/;"	p	line:57	class:MainWindow	access:private	signature:(void)
+MainWindow::camera_stop	main_window.cpp	/^void MainWindow::camera_stop()$/;"	f	line:557	class:MainWindow	signature:()
+MainWindow::camera_stop	main_window.h	/^    void camera_stop(void);$/;"	p	line:58	class:MainWindow	access:private	signature:(void)
+MainWindow::camstartAction	main_window.h	/^    QAction *camstartAction;$/;"	m	line:119	class:MainWindow	access:private
+MainWindow::camstopAction	main_window.h	/^    QAction *camstopAction;$/;"	m	line:120	class:MainWindow	access:private
+MainWindow::capture	main_window.h	/^    CvCapture *capture;$/;"	m	line:126	class:MainWindow	access:private
+MainWindow::clean_bluropt	main_window.cpp	/^void MainWindow::clean_bluropt()$/;"	f	line:256	class:MainWindow	signature:()
+MainWindow::clean_bluropt	main_window.h	/^    void clean_bluropt();$/;"	p	line:65	class:MainWindow	access:private	signature:()
+MainWindow::clean_edgedetect	main_window.cpp	/^void MainWindow::clean_edgedetect()$/;"	f	line:238	class:MainWindow	signature:()
+MainWindow::clean_edgedetect	main_window.h	/^    void clean_edgedetect();$/;"	p	line:62	class:MainWindow	access:private	signature:()
+MainWindow::clean_facedetect	main_window.cpp	/^void MainWindow::clean_facedetect()$/;"	f	line:226	class:MainWindow	signature:()
+MainWindow::clean_facedetect	main_window.h	/^    void clean_facedetect();$/;"	p	line:60	class:MainWindow	access:private	signature:()
+MainWindow::clean_histeqopt	main_window.cpp	/^void MainWindow::clean_histeqopt()$/;"	f	line:262	class:MainWindow	signature:()
+MainWindow::clean_histeqopt	main_window.h	/^    void clean_histeqopt();$/;"	p	line:66	class:MainWindow	access:private	signature:()
+MainWindow::clean_houghcheck	main_window.cpp	/^void MainWindow::clean_houghcheck()$/;"	f	line:244	class:MainWindow	signature:()
+MainWindow::clean_houghcheck	main_window.h	/^    void clean_houghcheck();$/;"	p	line:63	class:MainWindow	access:private	signature:()
+MainWindow::clean_morphology	main_window.cpp	/^void MainWindow::clean_morphology()$/;"	f	line:250	class:MainWindow	signature:()
+MainWindow::clean_morphology	main_window.h	/^    void clean_morphology();$/;"	p	line:64	class:MainWindow	access:private	signature:()
+MainWindow::clean_powertf	main_window.cpp	/^void MainWindow::clean_powertf()$/;"	f	line:232	class:MainWindow	signature:()
+MainWindow::clean_powertf	main_window.h	/^    void clean_powertf();$/;"	p	line:61	class:MainWindow	access:private	signature:()
+MainWindow::createActions	main_window.cpp	/^void MainWindow::createActions()$/;"	f	line:325	class:MainWindow	signature:()
+MainWindow::createActions	main_window.h	/^    void createActions();$/;"	p	line:73	class:MainWindow	access:private	signature:()
+MainWindow::createMenus	main_window.cpp	/^void MainWindow::createMenus()$/;"	f	line:295	class:MainWindow	signature:()
+MainWindow::createMenus	main_window.h	/^    void createMenus();$/;"	p	line:74	class:MainWindow	access:private	signature:()
+MainWindow::createToolBar	main_window.cpp	/^void MainWindow::createToolBar()$/;"	f	line:316	class:MainWindow	signature:()
+MainWindow::createToolBar	main_window.h	/^    void createToolBar();$/;"	p	line:75	class:MainWindow	access:private	signature:()
+MainWindow::cur_img	main_window.h	/^    Mat cur_img;$/;"	m	line:125	class:MainWindow	access:private
+MainWindow::disp_image	main_window.cpp	/^void MainWindow::disp_image()$/;"	f	line:409	class:MainWindow	signature:()
+MainWindow::disp_image	main_window.h	/^    void disp_image();$/;"	p	line:68	class:MainWindow	access:private	signature:()
+MainWindow::doc	main_window.cpp	/^void MainWindow::doc()$/;"	f	line:276	class:MainWindow	signature:()
+MainWindow::doc	main_window.h	/^    void doc();$/;"	p	line:70	class:MainWindow	access:private	signature:()
+MainWindow::docAction	main_window.h	/^    QAction *docAction;$/;"	m	line:115	class:MainWindow	access:private
+MainWindow::edgedetect	main_window.cpp	/^void MainWindow::edgedetect()$/;"	f	line:135	class:MainWindow	signature:()
+MainWindow::edgedetect	main_window.h	/^    void edgedetect();$/;"	p	line:50	class:MainWindow	access:private	signature:()
+MainWindow::edgedetectAction	main_window.h	/^    QAction *edgedetectAction;$/;"	m	line:108	class:MainWindow	access:private
+MainWindow::edgedetectDlg	main_window.h	/^    EdgedetectDialog *edgedetectDlg;$/;"	m	line:92	class:MainWindow	access:private
+MainWindow::editToolBar	main_window.h	/^    QToolBar *editToolBar;$/;"	m	line:101	class:MainWindow	access:private
+MainWindow::exit	main_window.cpp	/^void MainWindow::exit()$/;"	f	line:70	class:MainWindow	signature:()
+MainWindow::exit	main_window.h	/^    void exit();$/;"	p	line:46	class:MainWindow	access:private	signature:()
+MainWindow::exitAction	main_window.h	/^    QAction *exitAction;$/;"	m	line:105	class:MainWindow	access:private
+MainWindow::facedetect	main_window.cpp	/^void MainWindow::facedetect()$/;"	f	line:98	class:MainWindow	signature:()
+MainWindow::facedetect	main_window.h	/^    void facedetect();  \/\/ detection$/;"	p	line:48	class:MainWindow	access:private	signature:()
+MainWindow::facedetectAction	main_window.h	/^    QAction *facedetectAction;$/;"	m	line:106	class:MainWindow	access:private
+MainWindow::facedetectDlg	main_window.h	/^    FacedetectDialog *facedetectDlg;$/;"	m	line:90	class:MainWindow	access:private
+MainWindow::fileMenu	main_window.h	/^    QMenu *fileMenu;$/;"	m	line:98	class:MainWindow	access:private
+MainWindow::forward	main_window.cpp	/^void MainWindow::forward()$/;"	f	line:485	class:MainWindow	signature:()
+MainWindow::forward	main_window.h	/^    void forward();$/;"	p	line:55	class:MainWindow	access:private	signature:()
+MainWindow::forwardAction	main_window.h	/^    QAction *forwardAction;$/;"	m	line:118	class:MainWindow	access:private
+MainWindow::getStaticMetaObject	moc_main_window.cpp	/^const QMetaObject &MainWindow::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:120	class:MainWindow	signature:()
+MainWindow::helpMenu	main_window.h	/^    QMenu *helpMenu;$/;"	m	line:100	class:MainWindow	access:private
+MainWindow::histeqAction	main_window.h	/^    QAction *histeqAction;$/;"	m	line:112	class:MainWindow	access:private
+MainWindow::histeqDlg	main_window.h	/^    HisteqDialog *histeqDlg;$/;"	m	line:96	class:MainWindow	access:private
+MainWindow::histeqopt	main_window.cpp	/^void MainWindow::histeqopt()$/;"	f	line:207	class:MainWindow	signature:()
+MainWindow::histeqopt	main_window.h	/^    void histeqopt();$/;"	p	line:54	class:MainWindow	access:private	signature:()
+MainWindow::houghAction	main_window.h	/^    QAction *houghAction;$/;"	m	line:109	class:MainWindow	access:private
+MainWindow::houghDlg	main_window.h	/^    HoughDialog *houghDlg;$/;"	m	line:93	class:MainWindow	access:private
+MainWindow::houghcheck	main_window.cpp	/^void MainWindow::houghcheck()$/;"	f	line:153	class:MainWindow	signature:()
+MainWindow::houghcheck	main_window.h	/^    void houghcheck();$/;"	p	line:51	class:MainWindow	access:private	signature:()
+MainWindow::img	main_window.h	/^    Mat img;$/;"	m	line:124	class:MainWindow	access:private
+MainWindow::img_label	main_window.h	/^    QLabel *img_label;$/;"	m	line:128	class:MainWindow	access:private
+MainWindow::loadCheck	main_window.cpp	/^bool MainWindow::loadCheck()$/;"	f	line:419	class:MainWindow	signature:()
+MainWindow::loadCheck	main_window.h	/^    bool loadCheck();$/;"	p	line:77	class:MainWindow	access:private	signature:()
+MainWindow::loadCurCheck	main_window.h	/^    bool loadCurCheck;$/;"	m	line:86	class:MainWindow	access:private
+MainWindow::loadCurStatus	main_window.cpp	/^int MainWindow::loadCurStatus()$/;"	f	line:471	class:MainWindow	signature:()
+MainWindow::loadCurStatus	main_window.h	/^    int loadCurStatus(void);$/;"	p	line:83	class:MainWindow	access:private	signature:(void)
+MainWindow::loadFile	main_window.cpp	/^void MainWindow::loadFile(const QString &filename)$/;"	f	line:370	class:MainWindow	signature:(const QString &filename)
+MainWindow::loadFile	main_window.h	/^    void loadFile(const QString &filename);$/;"	p	line:76	class:MainWindow	access:private	signature:(const QString &filename)
+MainWindow::loadPrevCheck	main_window.h	/^    bool loadPrevCheck;$/;"	m	line:85	class:MainWindow	access:private
+MainWindow::loadPrevStatus	main_window.cpp	/^int MainWindow::loadPrevStatus()$/;"	f	line:452	class:MainWindow	signature:()
+MainWindow::loadPrevStatus	main_window.h	/^    int loadPrevStatus(void);$/;"	p	line:81	class:MainWindow	access:private	signature:(void)
+MainWindow::metaObject	moc_main_window.cpp	/^const QMetaObject *MainWindow::metaObject() const$/;"	f	line:123	class:MainWindow	signature:() const
+MainWindow::morphAction	main_window.h	/^    QAction *morphAction;$/;"	m	line:110	class:MainWindow	access:private
+MainWindow::morphDlg	main_window.h	/^    MorphologyDialog *morphDlg;$/;"	m	line:94	class:MainWindow	access:private
+MainWindow::morphology	main_window.cpp	/^void MainWindow::morphology()$/;"	f	line:171	class:MainWindow	signature:()
+MainWindow::morphology	main_window.h	/^    void morphology();$/;"	p	line:52	class:MainWindow	access:private	signature:()
+MainWindow::open	main_window.cpp	/^void MainWindow::open()$/;"	f	line:61	class:MainWindow	signature:()
+MainWindow::open	main_window.h	/^    void open();$/;"	p	line:44	class:MainWindow	access:private	signature:()
+MainWindow::openAction	main_window.h	/^    QAction *openAction;$/;"	m	line:103	class:MainWindow	access:private
+MainWindow::powertf	main_window.cpp	/^void MainWindow::powertf()$/;"	f	line:116	class:MainWindow	signature:()
+MainWindow::powertf	main_window.h	/^    void powertf();$/;"	p	line:49	class:MainWindow	access:private	signature:()
+MainWindow::powertfAction	main_window.h	/^    QAction *powertfAction;$/;"	m	line:107	class:MainWindow	access:private
+MainWindow::powertfDlg	main_window.h	/^    PowertfDialog *powertfDlg;$/;"	m	line:91	class:MainWindow	access:private
+MainWindow::qt_metacall	moc_main_window.cpp	/^int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:136	class:MainWindow	signature:(QMetaObject::Call _c, int _id, void **_a)
+MainWindow::qt_metacast	moc_main_window.cpp	/^void *MainWindow::qt_metacast(const char *_clname)$/;"	f	line:128	class:MainWindow	signature:(const char *_clname)
+MainWindow::qt_static_metacall	moc_main_window.cpp	/^void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:74	class:MainWindow	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+MainWindow::save	main_window.cpp	/^bool MainWindow::save()$/;"	f	line:77	class:MainWindow	signature:()
+MainWindow::save	main_window.h	/^    bool save();$/;"	p	line:45	class:MainWindow	access:private	signature:()
+MainWindow::saveAction	main_window.h	/^    QAction *saveAction;$/;"	m	line:104	class:MainWindow	access:private
+MainWindow::saveCurStatus	main_window.cpp	/^int MainWindow::saveCurStatus()$/;"	f	line:442	class:MainWindow	signature:()
+MainWindow::saveCurStatus	main_window.h	/^    int saveCurStatus(void);$/;"	p	line:82	class:MainWindow	access:private	signature:(void)
+MainWindow::savePrevStatus	main_window.cpp	/^int MainWindow::savePrevStatus()$/;"	f	line:430	class:MainWindow	signature:()
+MainWindow::savePrevStatus	main_window.h	/^    int savePrevStatus(void);$/;"	p	line:80	class:MainWindow	access:private	signature:(void)
+MainWindow::show_image	main_window.cpp	/^void MainWindow::show_image()$/;"	f	line:399	class:MainWindow	signature:()
+MainWindow::show_image	main_window.h	/^    void show_image();$/;"	p	line:79	class:MainWindow	access:private	signature:()
+MainWindow::staticMetaObject	moc_main_window.cpp	/^const QMetaObject MainWindow::staticMetaObject = {$/;"	m	line:114	class:MainWindow	file:
+MainWindow::staticMetaObjectExtraData	moc_main_window.cpp	/^const QMetaObjectExtraData MainWindow::staticMetaObjectExtraData = {$/;"	m	line:110	class:MainWindow	file:
+MainWindow::toolMenu	main_window.h	/^    QMenu *toolMenu;$/;"	m	line:99	class:MainWindow	access:private
+MainWindow::~MainWindow	main_window.cpp	/^MainWindow::~MainWindow()$/;"	f	line:56	class:MainWindow	signature:()
+MainWindow::~MainWindow	main_window.h	/^    ~MainWindow();$/;"	p	line:38	class:MainWindow	access:public	signature:()
+Mat2QImage	main_window.cpp	/^QImage MainWindow::Mat2QImage(Mat& image)$/;"	f	line:376	class:MainWindow	signature:(Mat& image)
+Mat2QImage	main_window.h	/^    QImage Mat2QImage(Mat& image);$/;"	p	line:78	class:MainWindow	access:private	signature:(Mat& image)
+MorphologyDialog	morphology_dialog.cpp	/^MorphologyDialog::MorphologyDialog(cv::Mat& img, QWidget *parent)$/;"	f	line:14	class:MorphologyDialog	signature:(cv::Mat& img, QWidget *parent)
+MorphologyDialog	morphology_dialog.h	/^    MorphologyDialog(cv::Mat& img, QWidget *parent=0);$/;"	p	line:25	class:MorphologyDialog	access:public	signature:(cv::Mat& img, QWidget *parent=0)
+MorphologyDialog	morphology_dialog.h	/^class MorphologyDialog : public QDialog {$/;"	c	line:21	inherits:QDialog
+MorphologyDialog::DILATE	morphology_dialog.h	/^        DILATE = 1,$/;"	e	line:55	enum:MorphologyDialog::__anon2
+MorphologyDialog::ERODE	morphology_dialog.h	/^        ERODE = 2,$/;"	e	line:56	enum:MorphologyDialog::__anon2
+MorphologyDialog::MorphologyDialog	morphology_dialog.cpp	/^MorphologyDialog::MorphologyDialog(cv::Mat& img, QWidget *parent)$/;"	f	line:14	class:MorphologyDialog	signature:(cv::Mat& img, QWidget *parent)
+MorphologyDialog::MorphologyDialog	morphology_dialog.h	/^    MorphologyDialog(cv::Mat& img, QWidget *parent=0);$/;"	p	line:25	class:MorphologyDialog	access:public	signature:(cv::Mat& img, QWidget *parent=0)
+MorphologyDialog::TYPE_CROSS	morphology_dialog.h	/^        TYPE_CROSS = 2,$/;"	e	line:61	enum:MorphologyDialog::__anon3
+MorphologyDialog::TYPE_ELLIPSE	morphology_dialog.h	/^        TYPE_ELLIPSE = 3,$/;"	e	line:62	enum:MorphologyDialog::__anon3
+MorphologyDialog::TYPE_RECT	morphology_dialog.h	/^        TYPE_RECT = 1,$/;"	e	line:60	enum:MorphologyDialog::__anon3
+MorphologyDialog::closeButton	morphology_dialog.h	/^    QPushButton *closeButton;$/;"	m	line:45	class:MorphologyDialog	access:private
+MorphologyDialog::closeClicked	morphology_dialog.cpp	/^void MorphologyDialog::closeClicked()$/;"	f	line:104	class:MorphologyDialog	signature:()
+MorphologyDialog::closeClicked	morphology_dialog.h	/^    void closeClicked();$/;"	p	line:33	class:MorphologyDialog	access:public	signature:()
+MorphologyDialog::crossRB	morphology_dialog.h	/^    QRadioButton *crossRB;$/;"	m	line:49	class:MorphologyDialog	access:private
+MorphologyDialog::dialogClosed	moc_morphology_dialog.cpp	/^void MorphologyDialog::dialogClosed()$/;"	f	line:124	class:MorphologyDialog	signature:()
+MorphologyDialog::dialogClosed	morphology_dialog.h	/^    void dialogClosed();$/;"	p	line:29	class:MorphologyDialog	access:public	signature:()
+MorphologyDialog::dilateRB	morphology_dialog.h	/^    QRadioButton *dilateRB;$/;"	m	line:46	class:MorphologyDialog	access:private
+MorphologyDialog::ele_type	morphology_dialog.h	/^    } ele_type;$/;"	m	line:63	class:MorphologyDialog	typeref:enum:MorphologyDialog::__anon3	access:private
+MorphologyDialog::ellipseRB	morphology_dialog.h	/^    QRadioButton *ellipseRB;$/;"	m	line:50	class:MorphologyDialog	access:private
+MorphologyDialog::erodeRB	morphology_dialog.h	/^    QRadioButton *erodeRB;$/;"	m	line:47	class:MorphologyDialog	access:private
+MorphologyDialog::getStaticMetaObject	moc_morphology_dialog.cpp	/^const QMetaObject &MorphologyDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:88	class:MorphologyDialog	signature:()
+MorphologyDialog::gray_image	morphology_dialog.h	/^    cv::Mat gray_image;$/;"	m	line:69	class:MorphologyDialog	access:private
+MorphologyDialog::image	morphology_dialog.h	/^    cv::Mat image;$/;"	m	line:68	class:MorphologyDialog	access:private
+MorphologyDialog::metaObject	moc_morphology_dialog.cpp	/^const QMetaObject *MorphologyDialog::metaObject() const$/;"	f	line:91	class:MorphologyDialog	signature:() const
+MorphologyDialog::morphology	morphology_dialog.cpp	/^void MorphologyDialog::morphology()$/;"	f	line:113	class:MorphologyDialog	signature:()
+MorphologyDialog::morphology	morphology_dialog.h	/^    void morphology();$/;"	p	line:42	class:MorphologyDialog	access:private	signature:()
+MorphologyDialog::okButton	morphology_dialog.h	/^    QPushButton *okButton;$/;"	m	line:44	class:MorphologyDialog	access:private
+MorphologyDialog::okClicked	morphology_dialog.cpp	/^void MorphologyDialog::okClicked()$/;"	f	line:98	class:MorphologyDialog	signature:()
+MorphologyDialog::okClicked	morphology_dialog.h	/^    void okClicked();$/;"	p	line:32	class:MorphologyDialog	access:public	signature:()
+MorphologyDialog::opt	morphology_dialog.h	/^    } opt;$/;"	m	line:57	class:MorphologyDialog	typeref:enum:MorphologyDialog::__anon2	access:private
+MorphologyDialog::pimage	morphology_dialog.h	/^    cv::Mat *pimage;$/;"	m	line:70	class:MorphologyDialog	access:private
+MorphologyDialog::qt_metacall	moc_morphology_dialog.cpp	/^int MorphologyDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:104	class:MorphologyDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+MorphologyDialog::qt_metacast	moc_morphology_dialog.cpp	/^void *MorphologyDialog::qt_metacast(const char *_clname)$/;"	f	line:96	class:MorphologyDialog	signature:(const char *_clname)
+MorphologyDialog::qt_static_metacall	moc_morphology_dialog.cpp	/^void MorphologyDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:57	class:MorphologyDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+MorphologyDialog::rectRB	morphology_dialog.h	/^    QRadioButton *rectRB;$/;"	m	line:48	class:MorphologyDialog	access:private
+MorphologyDialog::setCrossType	morphology_dialog.cpp	/^void MorphologyDialog::setCrossType()$/;"	f	line:165	class:MorphologyDialog	signature:()
+MorphologyDialog::setCrossType	morphology_dialog.h	/^    void setCrossType();$/;"	p	line:37	class:MorphologyDialog	access:public	signature:()
+MorphologyDialog::setDilateOpt	morphology_dialog.cpp	/^void MorphologyDialog::setDilateOpt()$/;"	f	line:147	class:MorphologyDialog	signature:()
+MorphologyDialog::setDilateOpt	morphology_dialog.h	/^    void setDilateOpt();$/;"	p	line:34	class:MorphologyDialog	access:public	signature:()
+MorphologyDialog::setEllipseType	morphology_dialog.cpp	/^void MorphologyDialog::setEllipseType()$/;"	f	line:171	class:MorphologyDialog	signature:()
+MorphologyDialog::setEllipseType	morphology_dialog.h	/^    void setEllipseType();$/;"	p	line:38	class:MorphologyDialog	access:public	signature:()
+MorphologyDialog::setErodeOpt	morphology_dialog.cpp	/^void MorphologyDialog::setErodeOpt()$/;"	f	line:153	class:MorphologyDialog	signature:()
+MorphologyDialog::setErodeOpt	morphology_dialog.h	/^    void setErodeOpt();$/;"	p	line:35	class:MorphologyDialog	access:public	signature:()
+MorphologyDialog::setRectType	morphology_dialog.cpp	/^void MorphologyDialog::setRectType()$/;"	f	line:159	class:MorphologyDialog	signature:()
+MorphologyDialog::setRectType	morphology_dialog.h	/^    void setRectType();$/;"	p	line:36	class:MorphologyDialog	access:public	signature:()
+MorphologyDialog::sizeLabel	morphology_dialog.h	/^    QLabel *sizeLabel;$/;"	m	line:52	class:MorphologyDialog	access:private
+MorphologyDialog::sizeSlider	morphology_dialog.h	/^    QSlider *sizeSlider;$/;"	m	line:51	class:MorphologyDialog	access:private
+MorphologyDialog::sizeSliderChanged	morphology_dialog.cpp	/^void MorphologyDialog::sizeSliderChanged(int value)$/;"	f	line:177	class:MorphologyDialog	signature:(int value)
+MorphologyDialog::sizeSliderChanged	morphology_dialog.h	/^    void sizeSliderChanged(int value);$/;"	p	line:39	class:MorphologyDialog	access:public	signature:(int value)
+MorphologyDialog::size_ele	morphology_dialog.h	/^    int size_ele;$/;"	m	line:65	class:MorphologyDialog	access:private
+MorphologyDialog::size_step	morphology_dialog.h	/^    static const int size_step=1;$/;"	m	line:66	class:MorphologyDialog	access:private
+MorphologyDialog::staticMetaObject	moc_morphology_dialog.cpp	/^const QMetaObject MorphologyDialog::staticMetaObject = {$/;"	m	line:82	class:MorphologyDialog	file:
+MorphologyDialog::staticMetaObjectExtraData	moc_morphology_dialog.cpp	/^const QMetaObjectExtraData MorphologyDialog::staticMetaObjectExtraData = {$/;"	m	line:78	class:MorphologyDialog	file:
+MorphologyDialog::statusChanged	moc_morphology_dialog.cpp	/^void MorphologyDialog::statusChanged()$/;"	f	line:118	class:MorphologyDialog	signature:()
+MorphologyDialog::statusChanged	morphology_dialog.h	/^    void statusChanged();$/;"	p	line:28	class:MorphologyDialog	access:public	signature:()
+OBJECTS	Makefile	/^OBJECTS       = blur_dialog.o \\$/;"	m	line:63
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m	line:42
+OPT_BILATERAL	blur_dialog.h	/^        OPT_BILATERAL = 4,$/;"	e	line:57	enum:BlurDialog::__anon1
+OPT_GUASSIAN	blur_dialog.h	/^        OPT_GUASSIAN = 2,$/;"	e	line:55	enum:BlurDialog::__anon1
+OPT_GUIDED	blur_dialog.h	/^        OPT_GUIDED = 5,$/;"	e	line:58	enum:BlurDialog::__anon1
+OPT_HOMOGENEOUS	blur_dialog.h	/^        OPT_HOMOGENEOUS = 1,$/;"	e	line:54	enum:BlurDialog::__anon1
+OPT_MEDIAN	blur_dialog.h	/^        OPT_MEDIAN = 3,$/;"	e	line:56	enum:BlurDialog::__anon1
+PowertfDialog	powertf_dialog.cpp	/^PowertfDialog::PowertfDialog(cv::Mat& img, QWidget *parent)$/;"	f	line:14	class:PowertfDialog	signature:(cv::Mat& img, QWidget *parent)
+PowertfDialog	powertf_dialog.h	/^    PowertfDialog(cv::Mat& img, QWidget *parent=0);$/;"	p	line:29	class:PowertfDialog	access:public	signature:(cv::Mat& img, QWidget *parent=0)
+PowertfDialog	powertf_dialog.h	/^class PowertfDialog : public QDialog {$/;"	c	line:25	inherits:QDialog
+PowertfDialog::PowertfDialog	powertf_dialog.cpp	/^PowertfDialog::PowertfDialog(cv::Mat& img, QWidget *parent)$/;"	f	line:14	class:PowertfDialog	signature:(cv::Mat& img, QWidget *parent)
+PowertfDialog::PowertfDialog	powertf_dialog.h	/^    PowertfDialog(cv::Mat& img, QWidget *parent=0);$/;"	p	line:29	class:PowertfDialog	access:public	signature:(cv::Mat& img, QWidget *parent=0)
+PowertfDialog::b	powertf_dialog.h	/^    int b;$/;"	m	line:48	class:PowertfDialog	access:private
+PowertfDialog::bChanged	powertf_dialog.cpp	/^void PowertfDialog::bChanged(int b)$/;"	f	line:114	class:PowertfDialog	signature:(int b)
+PowertfDialog::bChanged	powertf_dialog.h	/^    void bChanged(int b);$/;"	p	line:35	class:PowertfDialog	access:private	signature:(int b)
+PowertfDialog::bLabel	powertf_dialog.h	/^    QLabel *bLabel;$/;"	m	line:55	class:PowertfDialog	access:private
+PowertfDialog::bSBx	powertf_dialog.h	/^    QSpinBox *bSBx;$/;"	m	line:61	class:PowertfDialog	access:private
+PowertfDialog::bSlider	powertf_dialog.h	/^    QSlider *bSlider;$/;"	m	line:58	class:PowertfDialog	access:private
+PowertfDialog::c	powertf_dialog.h	/^    int c;$/;"	m	line:49	class:PowertfDialog	access:private
+PowertfDialog::cChanged	powertf_dialog.cpp	/^void PowertfDialog::cChanged(int c)$/;"	f	line:120	class:PowertfDialog	signature:(int c)
+PowertfDialog::cChanged	powertf_dialog.h	/^    void cChanged(int c);$/;"	p	line:36	class:PowertfDialog	access:private	signature:(int c)
+PowertfDialog::cLabel	powertf_dialog.h	/^    QLabel *cLabel;$/;"	m	line:54	class:PowertfDialog	access:private
+PowertfDialog::cSBx	powertf_dialog.h	/^    QSpinBox *cSBx;$/;"	m	line:60	class:PowertfDialog	access:private
+PowertfDialog::cSlider	powertf_dialog.h	/^    QSlider *cSlider;$/;"	m	line:57	class:PowertfDialog	access:private
+PowertfDialog::closeButton	powertf_dialog.h	/^    QPushButton *closeButton;$/;"	m	line:52	class:PowertfDialog	access:private
+PowertfDialog::closePowertf	powertf_dialog.cpp	/^void PowertfDialog::closePowertf()$/;"	f	line:139	class:PowertfDialog	signature:()
+PowertfDialog::closePowertf	powertf_dialog.h	/^    void closePowertf(void);$/;"	p	line:33	class:PowertfDialog	access:private	signature:(void)
+PowertfDialog::getStaticMetaObject	moc_powertf_dialog.cpp	/^const QMetaObject &PowertfDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:81	class:PowertfDialog	signature:()
+PowertfDialog::image	powertf_dialog.h	/^    cv::Mat image;$/;"	m	line:45	class:PowertfDialog	access:private
+PowertfDialog::metaObject	moc_powertf_dialog.cpp	/^const QMetaObject *PowertfDialog::metaObject() const$/;"	f	line:84	class:PowertfDialog	signature:() const
+PowertfDialog::okButton	powertf_dialog.h	/^    QPushButton *okButton;$/;"	m	line:51	class:PowertfDialog	access:private
+PowertfDialog::okClicked	powertf_dialog.cpp	/^void PowertfDialog::okClicked()$/;"	f	line:101	class:PowertfDialog	signature:()
+PowertfDialog::okClicked	powertf_dialog.h	/^    void okClicked();$/;"	p	line:32	class:PowertfDialog	access:private	signature:()
+PowertfDialog::pimage	powertf_dialog.h	/^    cv::Mat *pimage;$/;"	m	line:46	class:PowertfDialog	access:private
+PowertfDialog::powertf	powertf_dialog.cpp	/^void PowertfDialog::powertf(void)$/;"	f	line:126	class:PowertfDialog	signature:(void)
+PowertfDialog::powertf	powertf_dialog.h	/^    void powertf(void);$/;"	p	line:43	class:PowertfDialog	access:private	signature:(void)
+PowertfDialog::powertfClosed	moc_powertf_dialog.cpp	/^void PowertfDialog::powertfClosed()$/;"	f	line:117	class:PowertfDialog	signature:()
+PowertfDialog::powertfClosed	powertf_dialog.h	/^    void powertfClosed();$/;"	p	line:40	class:PowertfDialog	access:private	signature:()
+PowertfDialog::qt_metacall	moc_powertf_dialog.cpp	/^int PowertfDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:97	class:PowertfDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+PowertfDialog::qt_metacast	moc_powertf_dialog.cpp	/^void *PowertfDialog::qt_metacast(const char *_clname)$/;"	f	line:89	class:PowertfDialog	signature:(const char *_clname)
+PowertfDialog::qt_static_metacall	moc_powertf_dialog.cpp	/^void PowertfDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:53	class:PowertfDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+PowertfDialog::r	powertf_dialog.h	/^    int r;$/;"	m	line:47	class:PowertfDialog	access:private
+PowertfDialog::rChanged	powertf_dialog.cpp	/^void PowertfDialog::rChanged(int r)$/;"	f	line:108	class:PowertfDialog	signature:(int r)
+PowertfDialog::rChanged	powertf_dialog.h	/^    void rChanged(int r);$/;"	p	line:34	class:PowertfDialog	access:private	signature:(int r)
+PowertfDialog::rLabel	powertf_dialog.h	/^    QLabel *rLabel;$/;"	m	line:53	class:PowertfDialog	access:private
+PowertfDialog::rSBx	powertf_dialog.h	/^    QSpinBox *rSBx;$/;"	m	line:59	class:PowertfDialog	access:private
+PowertfDialog::rSlider	powertf_dialog.h	/^    QSlider *rSlider;$/;"	m	line:56	class:PowertfDialog	access:private
+PowertfDialog::staticMetaObject	moc_powertf_dialog.cpp	/^const QMetaObject PowertfDialog::staticMetaObject = {$/;"	m	line:75	class:PowertfDialog	file:
+PowertfDialog::staticMetaObjectExtraData	moc_powertf_dialog.cpp	/^const QMetaObjectExtraData PowertfDialog::staticMetaObjectExtraData = {$/;"	m	line:71	class:PowertfDialog	file:
+PowertfDialog::statusChanged	moc_powertf_dialog.cpp	/^void PowertfDialog::statusChanged()$/;"	f	line:111	class:PowertfDialog	signature:()
+PowertfDialog::statusChanged	powertf_dialog.h	/^    void statusChanged();$/;"	p	line:39	class:PowertfDialog	access:private	signature:()
+QMAKE	Makefile	/^QMAKE         = \/usr\/local\/Trolltech\/Qt-4.8.6\/bin\/qmake$/;"	m	line:22
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = zximage$/;"	m	line:107
+RANLIB	Makefile	/^RANLIB        = $/;"	m	line:21
+SED	Makefile	/^SED           = sed$/;"	m	line:26
+SOURCES	Makefile	/^SOURCES       = blur_dialog.cpp \\$/;"	m	line:46
+STRIP	Makefile	/^STRIP         = strip$/;"	m	line:29
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m	line:34
+TAR	Makefile	/^TAR           = tar -cf$/;"	m	line:23
+TARGET	Makefile	/^TARGET        = zximage$/;"	m	line:109
+TYPE_CROSS	morphology_dialog.h	/^        TYPE_CROSS = 2,$/;"	e	line:61	enum:MorphologyDialog::__anon3
+TYPE_ELLIPSE	morphology_dialog.h	/^        TYPE_ELLIPSE = 3,$/;"	e	line:62	enum:MorphologyDialog::__anon3
+TYPE_RECT	morphology_dialog.h	/^        TYPE_RECT = 1,$/;"	e	line:60	enum:MorphologyDialog::__anon3
+_BLUR_DIALOG_H	blur_dialog.h	11;"	d	line:11
+_EDGE_DETECT_H	edgedetect_dialog.h	11;"	d	line:11
+_FACEDETECT_H	facedetect_dialog.h	11;"	d	line:11
+_HISTEQ_DIALOG_H	histeq_dialog.h	11;"	d	line:11
+_HOUGH_DIALOG_H	hough_dialog.h	11;"	d	line:11
+_MAIN_WINDOW_H	main_window.h	11;"	d	line:11
+_MORPHOLOGY_DIALOG_H	morphology_dialog.h	11;"	d	line:11
+_POWERTF_DIALOG_H	powertf_dialog.h	11;"	d	line:11
+about	main_window.cpp	/^void MainWindow::about()$/;"	f	line:268	class:MainWindow	signature:()
+about	main_window.h	/^    void about();$/;"	p	line:69	class:MainWindow	access:private	signature:()
+aboutAction	main_window.h	/^    QAction *aboutAction;$/;"	m	line:114	class:MainWindow	access:private
+b	powertf_dialog.h	/^    int b;$/;"	m	line:48	class:PowertfDialog	access:private
+bChanged	powertf_dialog.cpp	/^void PowertfDialog::bChanged(int b)$/;"	f	line:114	class:PowertfDialog	signature:(int b)
+bChanged	powertf_dialog.h	/^    void bChanged(int b);$/;"	p	line:35	class:PowertfDialog	access:private	signature:(int b)
+bLabel	powertf_dialog.h	/^    QLabel *bLabel;$/;"	m	line:55	class:PowertfDialog	access:private
+bSBx	powertf_dialog.h	/^    QSpinBox *bSBx;$/;"	m	line:61	class:PowertfDialog	access:private
+bSlider	powertf_dialog.h	/^    QSlider *bSlider;$/;"	m	line:58	class:PowertfDialog	access:private
+backward	main_window.cpp	/^void MainWindow::backward()$/;"	f	line:492	class:MainWindow	signature:()
+backward	main_window.h	/^    void backward();$/;"	p	line:56	class:MainWindow	access:private	signature:()
+backwardAction	main_window.h	/^    QAction *backwardAction;$/;"	m	line:117	class:MainWindow	access:private
+bakfile_name	main_window.cpp	/^const char *bakfile_name = "bakfile.xml";$/;"	v	line:26
+bilateralBtn	blur_dialog.h	/^    QRadioButton *bilateralBtn;$/;"	m	line:45	class:BlurDialog	access:private
+blurAction	main_window.h	/^    QAction *blurAction;$/;"	m	line:111	class:MainWindow	access:private
+blurDlg	main_window.h	/^    BlurDialog *blurDlg;$/;"	m	line:95	class:MainWindow	access:private
+blur_bilateral	blur_dialog.cpp	/^static void blur_bilateral(const cv::Mat& img, cv::Mat& dst, int ksize)$/;"	f	line:15	file:	signature:(const cv::Mat& img, cv::Mat& dst, int ksize)
+blur_opt	blur_dialog.cpp	/^void BlurDialog::blur_opt(void)$/;"	f	line:195	class:BlurDialog	signature:(void)
+blur_opt	blur_dialog.h	/^    void blur_opt(void);$/;"	p	line:40	class:BlurDialog	access:private	signature:(void)
+bluropt	main_window.cpp	/^void MainWindow::bluropt()$/;"	f	line:189	class:MainWindow	signature:()
+bluropt	main_window.h	/^    void bluropt();$/;"	p	line:53	class:MainWindow	access:private	signature:()
+c	powertf_dialog.h	/^    int c;$/;"	m	line:49	class:PowertfDialog	access:private
+cChanged	powertf_dialog.cpp	/^void PowertfDialog::cChanged(int c)$/;"	f	line:120	class:PowertfDialog	signature:(int c)
+cChanged	powertf_dialog.h	/^    void cChanged(int c);$/;"	p	line:36	class:PowertfDialog	access:private	signature:(int c)
+cLabel	powertf_dialog.h	/^    QLabel *cLabel;$/;"	m	line:54	class:PowertfDialog	access:private
+cSBx	powertf_dialog.h	/^    QSpinBox *cSBx;$/;"	m	line:60	class:PowertfDialog	access:private
+cSlider	powertf_dialog.h	/^    QSlider *cSlider;$/;"	m	line:57	class:PowertfDialog	access:private
+cam_on	main_window.h	/^    bool cam_on;$/;"	m	line:87	class:MainWindow	access:private
+cam_save	main_window.h	/^    bool cam_save;$/;"	m	line:88	class:MainWindow	access:private
+cam_timer	main_window.h	/^    QTimer *cam_timer;$/;"	m	line:122	class:MainWindow	access:private
+cameraAction	main_window.h	/^    QAction *cameraAction;$/;"	m	line:113	class:MainWindow	access:private
+camera_start	main_window.cpp	/^void MainWindow::camera_start()$/;"	f	line:499	class:MainWindow	signature:()
+camera_start	main_window.h	/^    void camera_start(void);$/;"	p	line:57	class:MainWindow	access:private	signature:(void)
+camera_stop	main_window.cpp	/^void MainWindow::camera_stop()$/;"	f	line:557	class:MainWindow	signature:()
+camera_stop	main_window.h	/^    void camera_stop(void);$/;"	p	line:58	class:MainWindow	access:private	signature:(void)
+camstartAction	main_window.h	/^    QAction *camstartAction;$/;"	m	line:119	class:MainWindow	access:private
+camstopAction	main_window.h	/^    QAction *camstopAction;$/;"	m	line:120	class:MainWindow	access:private
+canny_hthr	edgedetect_dialog.h	/^    int canny_hthr;$/;"	m	line:98	class:EdgedetectDialog	access:private
+canny_hthrChanged	edgedetect_dialog.cpp	/^void EdgedetectDialog::canny_hthrChanged(int hthr)$/;"	f	line:268	class:EdgedetectDialog	signature:(int hthr)
+canny_hthrChanged	edgedetect_dialog.h	/^    void canny_hthrChanged(int hthr);$/;"	p	line:77	class:EdgedetectDialog	access:public	signature:(int hthr)
+canny_hthr_step	edgedetect_dialog.h	/^    static const int canny_hthr_step = 1;$/;"	m	line:101	class:EdgedetectDialog	access:private
+canny_ksize	edgedetect_dialog.h	/^    int canny_ksize;$/;"	m	line:96	class:EdgedetectDialog	access:private
+canny_ksizeChanged	edgedetect_dialog.cpp	/^void EdgedetectDialog::canny_ksizeChanged(int ksize)$/;"	f	line:256	class:EdgedetectDialog	signature:(int ksize)
+canny_ksizeChanged	edgedetect_dialog.h	/^    void canny_ksizeChanged(int ksize);$/;"	p	line:75	class:EdgedetectDialog	access:public	signature:(int ksize)
+canny_ksize_step	edgedetect_dialog.h	/^    static const int canny_ksize_step = 2;$/;"	m	line:99	class:EdgedetectDialog	access:private
+canny_lthr	edgedetect_dialog.h	/^    int canny_lthr;$/;"	m	line:97	class:EdgedetectDialog	access:private
+canny_lthrChanged	edgedetect_dialog.cpp	/^void EdgedetectDialog::canny_lthrChanged(int lthr)$/;"	f	line:262	class:EdgedetectDialog	signature:(int lthr)
+canny_lthrChanged	edgedetect_dialog.h	/^    void canny_lthrChanged(int lthr);$/;"	p	line:76	class:EdgedetectDialog	access:public	signature:(int lthr)
+canny_lthr_step	edgedetect_dialog.h	/^    static const int canny_lthr_step = 1;$/;"	m	line:100	class:EdgedetectDialog	access:private
+capture	main_window.h	/^    CvCapture *capture;$/;"	m	line:126	class:MainWindow	access:private
+clean_bluropt	main_window.cpp	/^void MainWindow::clean_bluropt()$/;"	f	line:256	class:MainWindow	signature:()
+clean_bluropt	main_window.h	/^    void clean_bluropt();$/;"	p	line:65	class:MainWindow	access:private	signature:()
+clean_edgedetect	main_window.cpp	/^void MainWindow::clean_edgedetect()$/;"	f	line:238	class:MainWindow	signature:()
+clean_edgedetect	main_window.h	/^    void clean_edgedetect();$/;"	p	line:62	class:MainWindow	access:private	signature:()
+clean_facedetect	main_window.cpp	/^void MainWindow::clean_facedetect()$/;"	f	line:226	class:MainWindow	signature:()
+clean_facedetect	main_window.h	/^    void clean_facedetect();$/;"	p	line:60	class:MainWindow	access:private	signature:()
+clean_histeqopt	main_window.cpp	/^void MainWindow::clean_histeqopt()$/;"	f	line:262	class:MainWindow	signature:()
+clean_histeqopt	main_window.h	/^    void clean_histeqopt();$/;"	p	line:66	class:MainWindow	access:private	signature:()
+clean_houghcheck	main_window.cpp	/^void MainWindow::clean_houghcheck()$/;"	f	line:244	class:MainWindow	signature:()
+clean_houghcheck	main_window.h	/^    void clean_houghcheck();$/;"	p	line:63	class:MainWindow	access:private	signature:()
+clean_morphology	main_window.cpp	/^void MainWindow::clean_morphology()$/;"	f	line:250	class:MainWindow	signature:()
+clean_morphology	main_window.h	/^    void clean_morphology();$/;"	p	line:64	class:MainWindow	access:private	signature:()
+clean_powertf	main_window.cpp	/^void MainWindow::clean_powertf()$/;"	f	line:232	class:MainWindow	signature:()
+clean_powertf	main_window.h	/^    void clean_powertf();$/;"	p	line:61	class:MainWindow	access:private	signature:()
+closeButton	blur_dialog.h	/^    QPushButton *closeButton;$/;"	m	line:51	class:BlurDialog	access:private
+closeButton	edgedetect_dialog.h	/^    QPushButton *closeButton;$/;"	m	line:85	class:EdgedetectDialog	access:private
+closeButton	facedetect_dialog.h	/^    QPushButton *closeButton;$/;"	m	line:33	class:FacedetectDialog	access:private
+closeButton	histeq_dialog.h	/^    QPushButton *closeButton;$/;"	m	line:40	class:HisteqDialog	access:private
+closeButton	hough_dialog.h	/^    QPushButton *closeButton;$/;"	m	line:53	class:HoughDialog	access:private
+closeButton	morphology_dialog.h	/^    QPushButton *closeButton;$/;"	m	line:45	class:MorphologyDialog	access:private
+closeButton	powertf_dialog.h	/^    QPushButton *closeButton;$/;"	m	line:52	class:PowertfDialog	access:private
+closeClicked	blur_dialog.cpp	/^void BlurDialog::closeClicked()$/;"	f	line:186	class:BlurDialog	signature:()
+closeClicked	blur_dialog.h	/^    void closeClicked();$/;"	p	line:31	class:BlurDialog	access:public	signature:()
+closeClicked	facedetect_dialog.cpp	/^void FacedetectDialog::closeClicked()$/;"	f	line:103	class:FacedetectDialog	signature:()
+closeClicked	facedetect_dialog.h	/^    void closeClicked();$/;"	p	line:24	class:FacedetectDialog	access:public	signature:()
+closeClicked	histeq_dialog.cpp	/^void HisteqDialog::closeClicked()$/;"	f	line:130	class:HisteqDialog	signature:()
+closeClicked	histeq_dialog.h	/^    void closeClicked();$/;"	p	line:26	class:HisteqDialog	access:public	signature:()
+closeClicked	hough_dialog.cpp	/^void HoughDialog::closeClicked()$/;"	f	line:204	class:HoughDialog	signature:()
+closeClicked	hough_dialog.h	/^    void closeClicked();$/;"	p	line:32	class:HoughDialog	access:public	signature:()
+closeClicked	morphology_dialog.cpp	/^void MorphologyDialog::closeClicked()$/;"	f	line:104	class:MorphologyDialog	signature:()
+closeClicked	morphology_dialog.h	/^    void closeClicked();$/;"	p	line:33	class:MorphologyDialog	access:public	signature:()
+closeEdgedetect	edgedetect_dialog.cpp	/^void EdgedetectDialog::closeEdgedetect()$/;"	f	line:207	class:EdgedetectDialog	signature:()
+closeEdgedetect	edgedetect_dialog.h	/^    void closeEdgedetect();$/;"	p	line:70	class:EdgedetectDialog	access:public	signature:()
+closePowertf	powertf_dialog.cpp	/^void PowertfDialog::closePowertf()$/;"	f	line:139	class:PowertfDialog	signature:()
+closePowertf	powertf_dialog.h	/^    void closePowertf(void);$/;"	p	line:33	class:PowertfDialog	access:private	signature:(void)
+createActions	main_window.cpp	/^void MainWindow::createActions()$/;"	f	line:325	class:MainWindow	signature:()
+createActions	main_window.h	/^    void createActions();$/;"	p	line:73	class:MainWindow	access:private	signature:()
+createMenus	main_window.cpp	/^void MainWindow::createMenus()$/;"	f	line:295	class:MainWindow	signature:()
+createMenus	main_window.h	/^    void createMenus();$/;"	p	line:74	class:MainWindow	access:private	signature:()
+createToolBar	main_window.cpp	/^void MainWindow::createToolBar()$/;"	f	line:316	class:MainWindow	signature:()
+createToolBar	main_window.h	/^    void createToolBar();$/;"	p	line:75	class:MainWindow	access:private	signature:()
+crossRB	morphology_dialog.h	/^    QRadioButton *crossRB;$/;"	m	line:49	class:MorphologyDialog	access:private
+cur_img	main_window.h	/^    Mat cur_img;$/;"	m	line:125	class:MainWindow	access:private
+curfile_name	main_window.cpp	/^const char *curfile_name = "curfile.xml";$/;"	v	line:27
+dialogClosed	blur_dialog.h	/^    void dialogClosed();$/;"	p	line:28	class:BlurDialog	access:public	signature:()
+dialogClosed	edgedetect_dialog.h	/^    void dialogClosed();$/;"	p	line:66	class:EdgedetectDialog	access:public	signature:()
+dialogClosed	facedetect_dialog.h	/^    void dialogClosed();$/;"	p	line:27	class:FacedetectDialog	access:public	signature:()
+dialogClosed	histeq_dialog.h	/^    void dialogClosed();$/;"	p	line:29	class:HisteqDialog	access:public	signature:()
+dialogClosed	hough_dialog.h	/^    void dialogClosed();$/;"	p	line:29	class:HoughDialog	access:public	signature:()
+dialogClosed	moc_blur_dialog.cpp	/^void BlurDialog::dialogClosed()$/;"	f	line:124	class:BlurDialog	signature:()
+dialogClosed	moc_edgedetect_dialog.cpp	/^void EdgedetectDialog::dialogClosed()$/;"	f	line:251	class:EdgedetectDialog	signature:()
+dialogClosed	moc_facedetect_dialog.cpp	/^void FacedetectDialog::dialogClosed()$/;"	f	line:110	class:FacedetectDialog	signature:()
+dialogClosed	moc_histeq_dialog.cpp	/^void HisteqDialog::dialogClosed()$/;"	f	line:110	class:HisteqDialog	signature:()
+dialogClosed	moc_hough_dialog.cpp	/^void HoughDialog::dialogClosed()$/;"	f	line:127	class:HoughDialog	signature:()
+dialogClosed	moc_morphology_dialog.cpp	/^void MorphologyDialog::dialogClosed()$/;"	f	line:124	class:MorphologyDialog	signature:()
+dialogClosed	morphology_dialog.h	/^    void dialogClosed();$/;"	p	line:29	class:MorphologyDialog	access:public	signature:()
+dilateRB	morphology_dialog.h	/^    QRadioButton *dilateRB;$/;"	m	line:46	class:MorphologyDialog	access:private
+disp_image	main_window.cpp	/^void MainWindow::disp_image()$/;"	f	line:409	class:MainWindow	signature:()
+disp_image	main_window.h	/^    void disp_image();$/;"	p	line:68	class:MainWindow	access:private	signature:()
+doc	main_window.cpp	/^void MainWindow::doc()$/;"	f	line:276	class:MainWindow	signature:()
+doc	main_window.h	/^    void doc();$/;"	p	line:70	class:MainWindow	access:private	signature:()
+docAction	main_window.h	/^    QAction *docAction;$/;"	m	line:115	class:MainWindow	access:private
+edge_canny	edgedetect_dialog.cpp	/^void EdgedetectDialog::edge_canny(void)$/;"	f	line:248	class:EdgedetectDialog	signature:(void)
+edge_canny	edgedetect_dialog.h	/^    void edge_canny(void);$/;"	p	line:81	class:EdgedetectDialog	access:private	signature:(void)
+edge_detect	edgedetect_dialog.cpp	/^void EdgedetectDialog::edge_detect(void)$/;"	f	line:216	class:EdgedetectDialog	signature:(void)
+edge_detect	edgedetect_dialog.h	/^    void edge_detect(void);$/;"	p	line:80	class:EdgedetectDialog	access:private	signature:(void)
+edgedetect	main_window.cpp	/^void MainWindow::edgedetect()$/;"	f	line:135	class:MainWindow	signature:()
+edgedetect	main_window.h	/^    void edgedetect();$/;"	p	line:50	class:MainWindow	access:private	signature:()
+edgedetectAction	main_window.h	/^    QAction *edgedetectAction;$/;"	m	line:108	class:MainWindow	access:private
+edgedetectDlg	main_window.h	/^    EdgedetectDialog *edgedetectDlg;$/;"	m	line:92	class:MainWindow	access:private
+editToolBar	main_window.h	/^    QToolBar *editToolBar;$/;"	m	line:101	class:MainWindow	access:private
+ele_type	morphology_dialog.h	/^    } ele_type;$/;"	m	line:63	class:MorphologyDialog	typeref:enum:MorphologyDialog::__anon3	access:private
+ellipseRB	morphology_dialog.h	/^    QRadioButton *ellipseRB;$/;"	m	line:50	class:MorphologyDialog	access:private
+erodeRB	morphology_dialog.h	/^    QRadioButton *erodeRB;$/;"	m	line:47	class:MorphologyDialog	access:private
+ex_win	hough_dialog.h	/^    QGroupBox *ex_win;$/;"	m	line:81	class:HoughDialog	access:private
+exit	main_window.cpp	/^void MainWindow::exit()$/;"	f	line:70	class:MainWindow	signature:()
+exit	main_window.h	/^    void exit();$/;"	p	line:46	class:MainWindow	access:private	signature:()
+exitAction	main_window.h	/^    QAction *exitAction;$/;"	m	line:105	class:MainWindow	access:private
+eyes_cascade	facedetect_dialog.cpp	/^CascadeClassifier eyes_cascade;$/;"	v	line:21
+eyes_cascade_name	facedetect_dialog.cpp	/^String eyes_cascade_name = "haarcascade_eye_tree_eyeglasses.xml";$/;"	v	line:19
+face_cascade	facedetect_dialog.cpp	/^CascadeClassifier face_cascade;$/;"	v	line:20
+facedetect	facedetect_dialog.cpp	/^void FacedetectDialog::facedetect()$/;"	f	line:54	class:FacedetectDialog	signature:()
+facedetect	facedetect_dialog.h	/^    void facedetect();$/;"	p	line:30	class:FacedetectDialog	access:private	signature:()
+facedetect	main_window.cpp	/^void MainWindow::facedetect()$/;"	f	line:98	class:MainWindow	signature:()
+facedetect	main_window.h	/^    void facedetect();  \/\/ detection$/;"	p	line:48	class:MainWindow	access:private	signature:()
+facedetectAction	main_window.h	/^    QAction *facedetectAction;$/;"	m	line:106	class:MainWindow	access:private
+facedetectDlg	main_window.h	/^    FacedetectDialog *facedetectDlg;$/;"	m	line:90	class:MainWindow	access:private
+fileMenu	main_window.h	/^    QMenu *fileMenu;$/;"	m	line:98	class:MainWindow	access:private
+forward	main_window.cpp	/^void MainWindow::forward()$/;"	f	line:485	class:MainWindow	signature:()
+forward	main_window.h	/^    void forward();$/;"	p	line:55	class:MainWindow	access:private	signature:()
+forwardAction	main_window.h	/^    QAction *forwardAction;$/;"	m	line:118	class:MainWindow	access:private
+getStaticMetaObject	moc_blur_dialog.cpp	/^const QMetaObject &BlurDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:88	class:BlurDialog	signature:()
+getStaticMetaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject &CannyDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:118	class:CannyDialog	signature:()
+getStaticMetaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject &EdgedetectDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:215	class:EdgedetectDialog	signature:()
+getStaticMetaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject &LOGDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:57	class:LOGDialog	signature:()
+getStaticMetaObject	moc_facedetect_dialog.cpp	/^const QMetaObject &FacedetectDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:74	class:FacedetectDialog	signature:()
+getStaticMetaObject	moc_histeq_dialog.cpp	/^const QMetaObject &HisteqDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:74	class:HisteqDialog	signature:()
+getStaticMetaObject	moc_hough_dialog.cpp	/^const QMetaObject &HoughDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:91	class:HoughDialog	signature:()
+getStaticMetaObject	moc_main_window.cpp	/^const QMetaObject &MainWindow::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:120	class:MainWindow	signature:()
+getStaticMetaObject	moc_morphology_dialog.cpp	/^const QMetaObject &MorphologyDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:88	class:MorphologyDialog	signature:()
+getStaticMetaObject	moc_powertf_dialog.cpp	/^const QMetaObject &PowertfDialog::getStaticMetaObject() { return staticMetaObject; }$/;"	f	line:81	class:PowertfDialog	signature:()
+gray_image	blur_dialog.h	/^    cv::Mat gray_image;$/;"	m	line:65	class:BlurDialog	access:private
+gray_image	edgedetect_dialog.h	/^    cv::Mat gray_image;$/;"	m	line:104	class:EdgedetectDialog	access:private
+gray_image	facedetect_dialog.h	/^    cv::Mat gray_image;$/;"	m	line:36	class:FacedetectDialog	access:private
+gray_image	histeq_dialog.h	/^    cv::Mat gray_image;$/;"	m	line:43	class:HisteqDialog	access:private
+gray_image	hough_dialog.h	/^    cv::Mat gray_image;$/;"	m	line:84	class:HoughDialog	access:private
+gray_image	morphology_dialog.h	/^    cv::Mat gray_image;$/;"	m	line:69	class:MorphologyDialog	access:private
+guassianBtn	blur_dialog.h	/^    QRadioButton *guassianBtn;$/;"	m	line:43	class:BlurDialog	access:private
+guidedBtn	blur_dialog.h	/^    QRadioButton *guidedBtn;$/;"	m	line:46	class:BlurDialog	access:private
+guidedFilter	blur_dialog.cpp	/^static void guidedFilter(cv::Mat& output, cv::Mat& source, cv::Mat& guided_image, int radius, double epsilon)$/;"	f	line:45	file:	signature:(cv::Mat& output, cv::Mat& source, cv::Mat& guided_image, int radius, double epsilon)
+helpMenu	main_window.h	/^    QMenu *helpMenu;$/;"	m	line:100	class:MainWindow	access:private
+histRange	histeq_dialog.cpp	/^static const float *histRange = {range};$/;"	v	line:16	file:
+histSize	histeq_dialog.cpp	/^static int histSize = 255;$/;"	v	line:17	file:
+hist_graph	histeq_dialog.cpp	/^void HisteqDialog::hist_graph()$/;"	f	line:91	class:HisteqDialog	signature:()
+hist_graph	histeq_dialog.h	/^    void hist_graph();$/;"	p	line:34	class:HisteqDialog	access:private	signature:()
+hist_graph_color	histeq_dialog.cpp	/^void HisteqDialog::hist_graph_color(Mat& img)$/;"	f	line:86	class:HisteqDialog	signature:(Mat& img)
+hist_graph_color	histeq_dialog.h	/^    void hist_graph_color(cv::Mat& img);$/;"	p	line:33	class:HisteqDialog	access:private	signature:(cv::Mat& img)
+hist_graph_gray	histeq_dialog.cpp	/^void HisteqDialog::hist_graph_gray(Mat& img, Mat& hist, QLabel *label)$/;"	f	line:59	class:HisteqDialog	signature:(Mat& img, Mat& hist, QLabel *label)
+hist_graph_gray	histeq_dialog.h	/^    void hist_graph_gray(cv::Mat& img, cv::Mat& hist, QLabel *label);$/;"	p	line:32	class:HisteqDialog	access:private	signature:(cv::Mat& img, cv::Mat& hist, QLabel *label)
+histeq	histeq_dialog.cpp	/^void HisteqDialog::histeq()$/;"	f	line:111	class:HisteqDialog	signature:()
+histeq	histeq_dialog.h	/^    void histeq(void);$/;"	p	line:37	class:HisteqDialog	access:private	signature:(void)
+histeqAction	main_window.h	/^    QAction *histeqAction;$/;"	m	line:112	class:MainWindow	access:private
+histeqDlg	main_window.h	/^    HisteqDialog *histeqDlg;$/;"	m	line:96	class:MainWindow	access:private
+histeq_color	histeq_dialog.cpp	/^void HisteqDialog::histeq_color(Mat& img)$/;"	f	line:106	class:HisteqDialog	signature:(Mat& img)
+histeq_color	histeq_dialog.h	/^    void histeq_color(cv::Mat& img);$/;"	p	line:36	class:HisteqDialog	access:private	signature:(cv::Mat& img)
+histeq_gray	histeq_dialog.cpp	/^void HisteqDialog::histeq_gray(Mat& img)$/;"	f	line:101	class:HisteqDialog	signature:(Mat& img)
+histeq_gray	histeq_dialog.h	/^    void histeq_gray(cv::Mat& img);$/;"	p	line:35	class:HisteqDialog	access:private	signature:(cv::Mat& img)
+histeqopt	main_window.cpp	/^void MainWindow::histeqopt()$/;"	f	line:207	class:MainWindow	signature:()
+histeqopt	main_window.h	/^    void histeqopt();$/;"	p	line:54	class:MainWindow	access:private	signature:()
+homogeneousBtn	blur_dialog.h	/^    QRadioButton *homogeneousBtn;$/;"	m	line:42	class:BlurDialog	access:private
+hough	hough_dialog.cpp	/^void HoughDialog::hough()$/;"	f	line:260	class:HoughDialog	signature:()
+hough	hough_dialog.h	/^    void hough(void);$/;"	p	line:41	class:HoughDialog	access:private	signature:(void)
+houghAction	main_window.h	/^    QAction *houghAction;$/;"	m	line:109	class:MainWindow	access:private
+houghDlg	main_window.h	/^    HoughDialog *houghDlg;$/;"	m	line:93	class:MainWindow	access:private
+houghcheck	main_window.cpp	/^void MainWindow::houghcheck()$/;"	f	line:153	class:MainWindow	signature:()
+houghcheck	main_window.h	/^    void houghcheck();$/;"	p	line:51	class:MainWindow	access:private	signature:()
+hthr	hough_dialog.h	/^    int hthr;$/;"	m	line:76	class:HoughDialog	access:private
+hthrChanged	hough_dialog.cpp	/^void HoughDialog::hthrChanged(int value)$/;"	f	line:254	class:HoughDialog	signature:(int value)
+hthrChanged	hough_dialog.h	/^    void hthrChanged(int value);$/;"	p	line:39	class:HoughDialog	access:public	signature:(int value)
+hthrEdit	hough_dialog.h	/^    QSpinBox *hthrEdit;$/;"	m	line:71	class:HoughDialog	access:private
+hthrLabel	edgedetect_dialog.h	/^    QLabel *hthrLabel;$/;"	m	line:52	class:CannyDialog	access:private
+hthrLabel	hough_dialog.h	/^    QLabel *hthrLabel;$/;"	m	line:65	class:HoughDialog	access:private
+hthrSBx	edgedetect_dialog.h	/^    QSpinBox *hthrSBx;$/;"	m	line:55	class:CannyDialog	access:private
+hthrSlider	edgedetect_dialog.h	/^    QSlider *hthrSlider;$/;"	m	line:49	class:CannyDialog	access:private
+hthrSlider	hough_dialog.h	/^    QSlider *hthrSlider;$/;"	m	line:68	class:HoughDialog	access:private
+hthr_step	hough_dialog.h	/^    static const int hthr_step = 1;$/;"	m	line:79	class:HoughDialog	access:private
+image	blur_dialog.h	/^    cv::Mat image;$/;"	m	line:64	class:BlurDialog	access:private
+image	edgedetect_dialog.h	/^    cv::Mat image;$/;"	m	line:103	class:EdgedetectDialog	access:private
+image	facedetect_dialog.h	/^    cv::Mat image;$/;"	m	line:35	class:FacedetectDialog	access:private
+image	histeq_dialog.h	/^    cv::Mat image;$/;"	m	line:42	class:HisteqDialog	access:private
+image	hough_dialog.h	/^    cv::Mat image;$/;"	m	line:83	class:HoughDialog	access:private
+image	morphology_dialog.h	/^    cv::Mat image;$/;"	m	line:68	class:MorphologyDialog	access:private
+image	powertf_dialog.h	/^    cv::Mat image;$/;"	m	line:45	class:PowertfDialog	access:private
+img	main_window.h	/^    Mat img;$/;"	m	line:124	class:MainWindow	access:private
+img_label	main_window.h	/^    QLabel *img_label;$/;"	m	line:128	class:MainWindow	access:private
+ksize	blur_dialog.h	/^    int ksize;$/;"	m	line:61	class:BlurDialog	access:private
+ksize	hough_dialog.h	/^    double ksize;$/;"	m	line:74	class:HoughDialog	access:private
+ksizeChanged	blur_dialog.cpp	/^void BlurDialog::ksizeChanged(int value)$/;"	f	line:251	class:BlurDialog	signature:(int value)
+ksizeChanged	blur_dialog.h	/^    void ksizeChanged(int value);$/;"	p	line:37	class:BlurDialog	access:public	signature:(int value)
+ksizeChanged	hough_dialog.cpp	/^void HoughDialog::ksizeChanged(int value)$/;"	f	line:242	class:HoughDialog	signature:(int value)
+ksizeChanged	hough_dialog.h	/^    void ksizeChanged(int value);$/;"	p	line:37	class:HoughDialog	access:public	signature:(int value)
+ksizeEdit	hough_dialog.h	/^    QSpinBox *ksizeEdit;$/;"	m	line:69	class:HoughDialog	access:private
+ksizeLabel	blur_dialog.h	/^    QLabel *ksizeLabel;$/;"	m	line:49	class:BlurDialog	access:private
+ksizeLabel	edgedetect_dialog.h	/^    QLabel *ksizeLabel;$/;"	m	line:50	class:CannyDialog	access:private
+ksizeLabel	hough_dialog.h	/^    QLabel *ksizeLabel;$/;"	m	line:63	class:HoughDialog	access:private
+ksizeSBox	blur_dialog.h	/^    QSpinBox *ksizeSBox;$/;"	m	line:48	class:BlurDialog	access:private
+ksizeSBx	edgedetect_dialog.h	/^    QSpinBox *ksizeSBx;$/;"	m	line:53	class:CannyDialog	access:private
+ksizeSlider	blur_dialog.h	/^    QSlider *ksizeSlider;$/;"	m	line:47	class:BlurDialog	access:private
+ksizeSlider	edgedetect_dialog.h	/^    QSlider *ksizeSlider;$/;"	m	line:47	class:CannyDialog	access:private
+ksizeSlider	hough_dialog.h	/^    QSlider *ksizeSlider;$/;"	m	line:66	class:HoughDialog	access:private
+ksize_step	blur_dialog.h	/^    static const int ksize_step = 2;$/;"	m	line:62	class:BlurDialog	access:private
+ksize_step	hough_dialog.h	/^    static const int ksize_step = 2;$/;"	m	line:77	class:HoughDialog	access:private
+loadCheck	main_window.cpp	/^bool MainWindow::loadCheck()$/;"	f	line:419	class:MainWindow	signature:()
+loadCheck	main_window.h	/^    bool loadCheck();$/;"	p	line:77	class:MainWindow	access:private	signature:()
+loadCurCheck	main_window.h	/^    bool loadCurCheck;$/;"	m	line:86	class:MainWindow	access:private
+loadCurStatus	main_window.cpp	/^int MainWindow::loadCurStatus()$/;"	f	line:471	class:MainWindow	signature:()
+loadCurStatus	main_window.h	/^    int loadCurStatus(void);$/;"	p	line:83	class:MainWindow	access:private	signature:(void)
+loadFile	main_window.cpp	/^void MainWindow::loadFile(const QString &filename)$/;"	f	line:370	class:MainWindow	signature:(const QString &filename)
+loadFile	main_window.h	/^    void loadFile(const QString &filename);$/;"	p	line:76	class:MainWindow	access:private	signature:(const QString &filename)
+loadPrevCheck	main_window.h	/^    bool loadPrevCheck;$/;"	m	line:85	class:MainWindow	access:private
+loadPrevStatus	main_window.cpp	/^int MainWindow::loadPrevStatus()$/;"	f	line:452	class:MainWindow	signature:()
+loadPrevStatus	main_window.h	/^    int loadPrevStatus(void);$/;"	p	line:81	class:MainWindow	access:private	signature:(void)
+log_delta	edgedetect_dialog.h	/^    double log_delta;$/;"	m	line:89	class:EdgedetectDialog	access:private
+log_deltaChanged	edgedetect_dialog.cpp	/^void EdgedetectDialog::log_deltaChanged(int delta)$/;"	f	line:236	class:EdgedetectDialog	signature:(int delta)
+log_deltaChanged	edgedetect_dialog.h	/^    void log_deltaChanged(int delta);$/;"	p	line:73	class:EdgedetectDialog	access:public	signature:(int delta)
+log_deltaLabel	edgedetect_dialog.h	/^    QLabel *log_deltaLabel;$/;"	m	line:34	class:LOGDialog	access:private
+log_deltaSBx	edgedetect_dialog.h	/^    QSpinBox *log_deltaSBx;$/;"	m	line:38	class:LOGDialog	access:private
+log_deltaSlider	edgedetect_dialog.h	/^    QSlider *log_deltaSlider;$/;"	m	line:30	class:LOGDialog	access:private
+log_delta_step	edgedetect_dialog.h	/^    static const double log_delta_step = 0.5;$/;"	m	line:93	class:EdgedetectDialog	access:private
+log_ksize	edgedetect_dialog.h	/^    int log_ksize;$/;"	m	line:87	class:EdgedetectDialog	access:private
+log_ksizeChanged	edgedetect_dialog.cpp	/^void EdgedetectDialog::log_ksizeChanged(int ksize)$/;"	f	line:224	class:EdgedetectDialog	signature:(int ksize)
+log_ksizeChanged	edgedetect_dialog.h	/^    void log_ksizeChanged(int ksize);$/;"	p	line:71	class:EdgedetectDialog	access:public	signature:(int ksize)
+log_ksizeLabel	edgedetect_dialog.h	/^    QLabel *log_ksizeLabel;$/;"	m	line:32	class:LOGDialog	access:private
+log_ksizeSBx	edgedetect_dialog.h	/^    QSpinBox *log_ksizeSBx;$/;"	m	line:36	class:LOGDialog	access:private
+log_ksizeSlider	edgedetect_dialog.h	/^    QSlider *log_ksizeSlider;$/;"	m	line:28	class:LOGDialog	access:private
+log_ksize_step	edgedetect_dialog.h	/^    static const int log_ksize_step = 2;$/;"	m	line:91	class:EdgedetectDialog	access:private
+log_scale	edgedetect_dialog.h	/^    double log_scale;$/;"	m	line:88	class:EdgedetectDialog	access:private
+log_scaleChanged	edgedetect_dialog.cpp	/^void EdgedetectDialog::log_scaleChanged(int scale)$/;"	f	line:230	class:EdgedetectDialog	signature:(int scale)
+log_scaleChanged	edgedetect_dialog.h	/^    void log_scaleChanged(int scale);$/;"	p	line:72	class:EdgedetectDialog	access:public	signature:(int scale)
+log_scaleLabel	edgedetect_dialog.h	/^    QLabel *log_scaleLabel;$/;"	m	line:33	class:LOGDialog	access:private
+log_scaleSBx	edgedetect_dialog.h	/^    QSpinBox *log_scaleSBx;$/;"	m	line:37	class:LOGDialog	access:private
+log_scaleSlider	edgedetect_dialog.h	/^    QSlider *log_scaleSlider;$/;"	m	line:29	class:LOGDialog	access:private
+log_scale_step	edgedetect_dialog.h	/^    static const double log_scale_step = 0.5;$/;"	m	line:92	class:EdgedetectDialog	access:private
+log_thr	edgedetect_dialog.h	/^    int log_thr;$/;"	m	line:90	class:EdgedetectDialog	access:private
+log_thrChanged	edgedetect_dialog.cpp	/^void EdgedetectDialog::log_thrChanged(int thr)$/;"	f	line:242	class:EdgedetectDialog	signature:(int thr)
+log_thrChanged	edgedetect_dialog.h	/^    void log_thrChanged(int thr);$/;"	p	line:74	class:EdgedetectDialog	access:public	signature:(int thr)
+log_thr_step	edgedetect_dialog.h	/^    static const int log_thr_step = 1;$/;"	m	line:94	class:EdgedetectDialog	access:private
+lthr	hough_dialog.h	/^    double lthr;$/;"	m	line:75	class:HoughDialog	access:private
+lthrChanged	hough_dialog.cpp	/^void HoughDialog::lthrChanged(int value)$/;"	f	line:248	class:HoughDialog	signature:(int value)
+lthrChanged	hough_dialog.h	/^    void lthrChanged(int value);$/;"	p	line:38	class:HoughDialog	access:public	signature:(int value)
+lthrEdit	hough_dialog.h	/^    QSpinBox *lthrEdit;$/;"	m	line:70	class:HoughDialog	access:private
+lthrLabel	edgedetect_dialog.h	/^    QLabel *lthrLabel;$/;"	m	line:51	class:CannyDialog	access:private
+lthrLabel	hough_dialog.h	/^    QLabel *lthrLabel;$/;"	m	line:64	class:HoughDialog	access:private
+lthrSBx	edgedetect_dialog.h	/^    QSpinBox *lthrSBx;$/;"	m	line:54	class:CannyDialog	access:private
+lthrSlider	edgedetect_dialog.h	/^    QSlider *lthrSlider;$/;"	m	line:48	class:CannyDialog	access:private
+lthrSlider	hough_dialog.h	/^    QSlider *lthrSlider;$/;"	m	line:67	class:HoughDialog	access:private
+lthr_step	hough_dialog.h	/^    static const int lthr_step = 1;$/;"	m	line:78	class:HoughDialog	access:private
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f	line:14	signature:(int argc, char *argv[])
+mainLayout	hough_dialog.h	/^    QHBoxLayout *mainLayout;$/;"	m	line:80	class:HoughDialog	access:private
+makeDepth32f	blur_dialog.cpp	/^static void makeDepth32f(cv::Mat& source, cv::Mat& output)$/;"	f	line:26	file:	signature:(cv::Mat& source, cv::Mat& output)
+medianBtn	blur_dialog.h	/^    QRadioButton *medianBtn;$/;"	m	line:44	class:BlurDialog	access:private
+metaObject	moc_blur_dialog.cpp	/^const QMetaObject *BlurDialog::metaObject() const$/;"	f	line:91	class:BlurDialog	signature:() const
+metaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject *CannyDialog::metaObject() const$/;"	f	line:121	class:CannyDialog	signature:() const
+metaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject *EdgedetectDialog::metaObject() const$/;"	f	line:218	class:EdgedetectDialog	signature:() const
+metaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject *LOGDialog::metaObject() const$/;"	f	line:60	class:LOGDialog	signature:() const
+metaObject	moc_facedetect_dialog.cpp	/^const QMetaObject *FacedetectDialog::metaObject() const$/;"	f	line:77	class:FacedetectDialog	signature:() const
+metaObject	moc_histeq_dialog.cpp	/^const QMetaObject *HisteqDialog::metaObject() const$/;"	f	line:77	class:HisteqDialog	signature:() const
+metaObject	moc_hough_dialog.cpp	/^const QMetaObject *HoughDialog::metaObject() const$/;"	f	line:94	class:HoughDialog	signature:() const
+metaObject	moc_main_window.cpp	/^const QMetaObject *MainWindow::metaObject() const$/;"	f	line:123	class:MainWindow	signature:() const
+metaObject	moc_morphology_dialog.cpp	/^const QMetaObject *MorphologyDialog::metaObject() const$/;"	f	line:91	class:MorphologyDialog	signature:() const
+metaObject	moc_powertf_dialog.cpp	/^const QMetaObject *PowertfDialog::metaObject() const$/;"	f	line:84	class:PowertfDialog	signature:() const
+moreButton	hough_dialog.h	/^    QPushButton *moreButton;$/;"	m	line:72	class:HoughDialog	access:private
+moreClicked	hough_dialog.cpp	/^void HoughDialog::moreClicked()$/;"	f	line:213	class:HoughDialog	signature:()
+moreClicked	hough_dialog.h	/^    void moreClicked();$/;"	p	line:33	class:HoughDialog	access:public	signature:()
+morphAction	main_window.h	/^    QAction *morphAction;$/;"	m	line:110	class:MainWindow	access:private
+morphDlg	main_window.h	/^    MorphologyDialog *morphDlg;$/;"	m	line:94	class:MainWindow	access:private
+morphology	main_window.cpp	/^void MainWindow::morphology()$/;"	f	line:171	class:MainWindow	signature:()
+morphology	main_window.h	/^    void morphology();$/;"	p	line:52	class:MainWindow	access:private	signature:()
+morphology	morphology_dialog.cpp	/^void MorphologyDialog::morphology()$/;"	f	line:113	class:MorphologyDialog	signature:()
+morphology	morphology_dialog.h	/^    void morphology();$/;"	p	line:42	class:MorphologyDialog	access:private	signature:()
+okButton	blur_dialog.h	/^    QPushButton *okButton;$/;"	m	line:50	class:BlurDialog	access:private
+okButton	edgedetect_dialog.h	/^    QPushButton *okButton;$/;"	m	line:84	class:EdgedetectDialog	access:private
+okButton	facedetect_dialog.h	/^    QPushButton *okButton;$/;"	m	line:32	class:FacedetectDialog	access:private
+okButton	histeq_dialog.h	/^    QPushButton *okButton;$/;"	m	line:39	class:HisteqDialog	access:private
+okButton	hough_dialog.h	/^    QPushButton *okButton;$/;"	m	line:52	class:HoughDialog	access:private
+okButton	morphology_dialog.h	/^    QPushButton *okButton;$/;"	m	line:44	class:MorphologyDialog	access:private
+okButton	powertf_dialog.h	/^    QPushButton *okButton;$/;"	m	line:51	class:PowertfDialog	access:private
+okClicked	blur_dialog.cpp	/^void BlurDialog::okClicked()$/;"	f	line:180	class:BlurDialog	signature:()
+okClicked	blur_dialog.h	/^    void okClicked();$/;"	p	line:30	class:BlurDialog	access:public	signature:()
+okClicked	edgedetect_dialog.cpp	/^void EdgedetectDialog::okClicked()$/;"	f	line:201	class:EdgedetectDialog	signature:()
+okClicked	edgedetect_dialog.h	/^    void okClicked();$/;"	p	line:69	class:EdgedetectDialog	access:public	signature:()
+okClicked	facedetect_dialog.cpp	/^void FacedetectDialog::okClicked()$/;"	f	line:96	class:FacedetectDialog	signature:()
+okClicked	facedetect_dialog.h	/^    void okClicked();$/;"	p	line:23	class:FacedetectDialog	access:public	signature:()
+okClicked	histeq_dialog.cpp	/^void HisteqDialog::okClicked()$/;"	f	line:122	class:HisteqDialog	signature:()
+okClicked	histeq_dialog.h	/^    void okClicked();$/;"	p	line:25	class:HisteqDialog	access:public	signature:()
+okClicked	hough_dialog.cpp	/^void HoughDialog::okClicked()$/;"	f	line:198	class:HoughDialog	signature:()
+okClicked	hough_dialog.h	/^    void okClicked();$/;"	p	line:31	class:HoughDialog	access:public	signature:()
+okClicked	morphology_dialog.cpp	/^void MorphologyDialog::okClicked()$/;"	f	line:98	class:MorphologyDialog	signature:()
+okClicked	morphology_dialog.h	/^    void okClicked();$/;"	p	line:32	class:MorphologyDialog	access:public	signature:()
+okClicked	powertf_dialog.cpp	/^void PowertfDialog::okClicked()$/;"	f	line:101	class:PowertfDialog	signature:()
+okClicked	powertf_dialog.h	/^    void okClicked();$/;"	p	line:32	class:PowertfDialog	access:private	signature:()
+open	main_window.cpp	/^void MainWindow::open()$/;"	f	line:61	class:MainWindow	signature:()
+open	main_window.h	/^    void open();$/;"	p	line:44	class:MainWindow	access:private	signature:()
+openAction	main_window.h	/^    QAction *openAction;$/;"	m	line:103	class:MainWindow	access:private
+opt	blur_dialog.h	/^    } opt;$/;"	m	line:59	class:BlurDialog	typeref:enum:BlurDialog::__anon1	access:private
+opt	morphology_dialog.h	/^    } opt;$/;"	m	line:57	class:MorphologyDialog	typeref:enum:MorphologyDialog::__anon2	access:private
+pimage	blur_dialog.h	/^    cv::Mat *pimage;$/;"	m	line:66	class:BlurDialog	access:private
+pimage	edgedetect_dialog.h	/^    cv::Mat *pimage;$/;"	m	line:105	class:EdgedetectDialog	access:private
+pimage	facedetect_dialog.h	/^    cv::Mat *pimage;$/;"	m	line:37	class:FacedetectDialog	access:private
+pimage	histeq_dialog.h	/^    cv::Mat *pimage;$/;"	m	line:44	class:HisteqDialog	access:private
+pimage	hough_dialog.h	/^    cv::Mat *pimage;$/;"	m	line:85	class:HoughDialog	access:private
+pimage	morphology_dialog.h	/^    cv::Mat *pimage;$/;"	m	line:70	class:MorphologyDialog	access:private
+pimage	powertf_dialog.h	/^    cv::Mat *pimage;$/;"	m	line:46	class:PowertfDialog	access:private
+powertf	main_window.cpp	/^void MainWindow::powertf()$/;"	f	line:116	class:MainWindow	signature:()
+powertf	main_window.h	/^    void powertf();$/;"	p	line:49	class:MainWindow	access:private	signature:()
+powertf	powertf_dialog.cpp	/^void PowertfDialog::powertf(void)$/;"	f	line:126	class:PowertfDialog	signature:(void)
+powertf	powertf_dialog.h	/^    void powertf(void);$/;"	p	line:43	class:PowertfDialog	access:private	signature:(void)
+powertfAction	main_window.h	/^    QAction *powertfAction;$/;"	m	line:107	class:MainWindow	access:private
+powertfClosed	moc_powertf_dialog.cpp	/^void PowertfDialog::powertfClosed()$/;"	f	line:117	class:PowertfDialog	signature:()
+powertfClosed	powertf_dialog.h	/^    void powertfClosed();$/;"	p	line:40	class:PowertfDialog	access:private	signature:()
+powertfDlg	main_window.h	/^    PowertfDialog *powertfDlg;$/;"	m	line:91	class:MainWindow	access:private
+qCleanupResources_images	qrc_images.cpp	/^int QT_MANGLE_NAMESPACE(qCleanupResources_images)()$/;"	f	line:511	signature:()
+qInitResources_images	qrc_images.cpp	/^int QT_MANGLE_NAMESPACE(qInitResources_images)()$/;"	f	line:502	signature:()
+qRegisterResourceData	qrc_images.cpp	/^extern Q_CORE_EXPORT bool qRegisterResourceData$/;"	p	line:493	file:	signature:(int, const unsigned char *, const unsigned char *, const unsigned char *)
+qUnregisterResourceData	qrc_images.cpp	/^extern Q_CORE_EXPORT bool qUnregisterResourceData$/;"	p	line:496	file:	signature:(int, const unsigned char *, const unsigned char *, const unsigned char *)
+qt_meta_data_BlurDialog	moc_blur_dialog.cpp	/^static const uint qt_meta_data_BlurDialog[] = {$/;"	v	line:19	file:
+qt_meta_data_CannyDialog	moc_edgedetect_dialog.cpp	/^static const uint qt_meta_data_CannyDialog[] = {$/;"	v	line:80	file:
+qt_meta_data_EdgedetectDialog	moc_edgedetect_dialog.cpp	/^static const uint qt_meta_data_EdgedetectDialog[] = {$/;"	v	line:141	file:
+qt_meta_data_FacedetectDialog	moc_facedetect_dialog.cpp	/^static const uint qt_meta_data_FacedetectDialog[] = {$/;"	v	line:19	file:
+qt_meta_data_HisteqDialog	moc_histeq_dialog.cpp	/^static const uint qt_meta_data_HisteqDialog[] = {$/;"	v	line:19	file:
+qt_meta_data_HoughDialog	moc_hough_dialog.cpp	/^static const uint qt_meta_data_HoughDialog[] = {$/;"	v	line:19	file:
+qt_meta_data_LOGDialog	moc_edgedetect_dialog.cpp	/^static const uint qt_meta_data_LOGDialog[] = {$/;"	v	line:19	file:
+qt_meta_data_MainWindow	moc_main_window.cpp	/^static const uint qt_meta_data_MainWindow[] = {$/;"	v	line:19	file:
+qt_meta_data_MorphologyDialog	moc_morphology_dialog.cpp	/^static const uint qt_meta_data_MorphologyDialog[] = {$/;"	v	line:19	file:
+qt_meta_data_PowertfDialog	moc_powertf_dialog.cpp	/^static const uint qt_meta_data_PowertfDialog[] = {$/;"	v	line:19	file:
+qt_meta_stringdata_BlurDialog	moc_blur_dialog.cpp	/^static const char qt_meta_stringdata_BlurDialog[] = {$/;"	v	line:49	file:
+qt_meta_stringdata_CannyDialog	moc_edgedetect_dialog.cpp	/^static const char qt_meta_stringdata_CannyDialog[] = {$/;"	v	line:96	file:
+qt_meta_stringdata_EdgedetectDialog	moc_edgedetect_dialog.cpp	/^static const char qt_meta_stringdata_EdgedetectDialog[] = {$/;"	v	line:172	file:
+qt_meta_stringdata_FacedetectDialog	moc_facedetect_dialog.cpp	/^static const char qt_meta_stringdata_FacedetectDialog[] = {$/;"	v	line:43	file:
+qt_meta_stringdata_HisteqDialog	moc_histeq_dialog.cpp	/^static const char qt_meta_stringdata_HisteqDialog[] = {$/;"	v	line:43	file:
+qt_meta_stringdata_HoughDialog	moc_hough_dialog.cpp	/^static const char qt_meta_stringdata_HoughDialog[] = {$/;"	v	line:50	file:
+qt_meta_stringdata_LOGDialog	moc_edgedetect_dialog.cpp	/^static const char qt_meta_stringdata_LOGDialog[] = {$/;"	v	line:35	file:
+qt_meta_stringdata_MainWindow	moc_main_window.cpp	/^static const char qt_meta_stringdata_MainWindow[] = {$/;"	v	line:61	file:
+qt_meta_stringdata_MorphologyDialog	moc_morphology_dialog.cpp	/^static const char qt_meta_stringdata_MorphologyDialog[] = {$/;"	v	line:49	file:
+qt_meta_stringdata_PowertfDialog	moc_powertf_dialog.cpp	/^static const char qt_meta_stringdata_PowertfDialog[] = {$/;"	v	line:46	file:
+qt_metacall	moc_blur_dialog.cpp	/^int BlurDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:104	class:BlurDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	moc_edgedetect_dialog.cpp	/^int CannyDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:134	class:CannyDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	moc_edgedetect_dialog.cpp	/^int EdgedetectDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:231	class:EdgedetectDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	moc_edgedetect_dialog.cpp	/^int LOGDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:73	class:LOGDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	moc_facedetect_dialog.cpp	/^int FacedetectDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:90	class:FacedetectDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	moc_histeq_dialog.cpp	/^int HisteqDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:90	class:HisteqDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	moc_hough_dialog.cpp	/^int HoughDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:107	class:HoughDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	moc_main_window.cpp	/^int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:136	class:MainWindow	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	moc_morphology_dialog.cpp	/^int MorphologyDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:104	class:MorphologyDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacall	moc_powertf_dialog.cpp	/^int PowertfDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:97	class:PowertfDialog	signature:(QMetaObject::Call _c, int _id, void **_a)
+qt_metacast	moc_blur_dialog.cpp	/^void *BlurDialog::qt_metacast(const char *_clname)$/;"	f	line:96	class:BlurDialog	signature:(const char *_clname)
+qt_metacast	moc_edgedetect_dialog.cpp	/^void *CannyDialog::qt_metacast(const char *_clname)$/;"	f	line:126	class:CannyDialog	signature:(const char *_clname)
+qt_metacast	moc_edgedetect_dialog.cpp	/^void *EdgedetectDialog::qt_metacast(const char *_clname)$/;"	f	line:223	class:EdgedetectDialog	signature:(const char *_clname)
+qt_metacast	moc_edgedetect_dialog.cpp	/^void *LOGDialog::qt_metacast(const char *_clname)$/;"	f	line:65	class:LOGDialog	signature:(const char *_clname)
+qt_metacast	moc_facedetect_dialog.cpp	/^void *FacedetectDialog::qt_metacast(const char *_clname)$/;"	f	line:82	class:FacedetectDialog	signature:(const char *_clname)
+qt_metacast	moc_histeq_dialog.cpp	/^void *HisteqDialog::qt_metacast(const char *_clname)$/;"	f	line:82	class:HisteqDialog	signature:(const char *_clname)
+qt_metacast	moc_hough_dialog.cpp	/^void *HoughDialog::qt_metacast(const char *_clname)$/;"	f	line:99	class:HoughDialog	signature:(const char *_clname)
+qt_metacast	moc_main_window.cpp	/^void *MainWindow::qt_metacast(const char *_clname)$/;"	f	line:128	class:MainWindow	signature:(const char *_clname)
+qt_metacast	moc_morphology_dialog.cpp	/^void *MorphologyDialog::qt_metacast(const char *_clname)$/;"	f	line:96	class:MorphologyDialog	signature:(const char *_clname)
+qt_metacast	moc_powertf_dialog.cpp	/^void *PowertfDialog::qt_metacast(const char *_clname)$/;"	f	line:89	class:PowertfDialog	signature:(const char *_clname)
+qt_resource_data	qrc_images.cpp	/^static const unsigned char qt_resource_data[] = {$/;"	v	line:11	file:
+qt_resource_name	qrc_images.cpp	/^static const unsigned char qt_resource_name[] = {$/;"	v	line:439	file:
+qt_resource_struct	qrc_images.cpp	/^static const unsigned char qt_resource_struct[] = {$/;"	v	line:473	file:
+qt_static_metacall	moc_blur_dialog.cpp	/^void BlurDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:57	class:BlurDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+qt_static_metacall	moc_edgedetect_dialog.cpp	/^void CannyDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:100	class:CannyDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+qt_static_metacall	moc_edgedetect_dialog.cpp	/^void EdgedetectDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:183	class:EdgedetectDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+qt_static_metacall	moc_edgedetect_dialog.cpp	/^void LOGDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:39	class:LOGDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+qt_static_metacall	moc_facedetect_dialog.cpp	/^void FacedetectDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:48	class:FacedetectDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+qt_static_metacall	moc_histeq_dialog.cpp	/^void HisteqDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:48	class:HisteqDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+qt_static_metacall	moc_hough_dialog.cpp	/^void HoughDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:59	class:HoughDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+qt_static_metacall	moc_main_window.cpp	/^void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:74	class:MainWindow	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+qt_static_metacall	moc_morphology_dialog.cpp	/^void MorphologyDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:57	class:MorphologyDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+qt_static_metacall	moc_powertf_dialog.cpp	/^void PowertfDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)$/;"	f	line:53	class:PowertfDialog	signature:(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+r	powertf_dialog.h	/^    int r;$/;"	m	line:47	class:PowertfDialog	access:private
+rChanged	powertf_dialog.cpp	/^void PowertfDialog::rChanged(int r)$/;"	f	line:108	class:PowertfDialog	signature:(int r)
+rChanged	powertf_dialog.h	/^    void rChanged(int r);$/;"	p	line:34	class:PowertfDialog	access:private	signature:(int r)
+rLabel	powertf_dialog.h	/^    QLabel *rLabel;$/;"	m	line:53	class:PowertfDialog	access:private
+rSBx	powertf_dialog.h	/^    QSpinBox *rSBx;$/;"	m	line:59	class:PowertfDialog	access:private
+rSlider	powertf_dialog.h	/^    QSlider *rSlider;$/;"	m	line:56	class:PowertfDialog	access:private
+range	histeq_dialog.cpp	/^static float range[] = {0,255};$/;"	v	line:15	file:
+rectRB	morphology_dialog.h	/^    QRadioButton *rectRB;$/;"	m	line:48	class:MorphologyDialog	access:private
+rho	hough_dialog.h	/^    double rho;$/;"	m	line:55	class:HoughDialog	access:private
+rhoChanged	hough_dialog.cpp	/^void HoughDialog::rhoChanged(int value)$/;"	f	line:223	class:HoughDialog	signature:(int value)
+rhoChanged	hough_dialog.h	/^    void rhoChanged(int value);$/;"	p	line:34	class:HoughDialog	access:public	signature:(int value)
+rhoEdit	hough_dialog.h	/^    QSpinBox *rhoEdit;$/;"	m	line:49	class:HoughDialog	access:private
+rhoLabel	hough_dialog.h	/^    QLabel *rhoLabel;$/;"	m	line:43	class:HoughDialog	access:private
+rhoSlider	hough_dialog.h	/^    QSlider *rhoSlider;$/;"	m	line:46	class:HoughDialog	access:private
+rho_step	hough_dialog.h	/^    static const double rho_step = 1;$/;"	m	line:58	class:HoughDialog	access:private
+save	main_window.cpp	/^bool MainWindow::save()$/;"	f	line:77	class:MainWindow	signature:()
+save	main_window.h	/^    bool save();$/;"	p	line:45	class:MainWindow	access:private	signature:()
+saveAction	main_window.h	/^    QAction *saveAction;$/;"	m	line:104	class:MainWindow	access:private
+saveCurStatus	main_window.cpp	/^int MainWindow::saveCurStatus()$/;"	f	line:442	class:MainWindow	signature:()
+saveCurStatus	main_window.h	/^    int saveCurStatus(void);$/;"	p	line:82	class:MainWindow	access:private	signature:(void)
+savePrevStatus	main_window.cpp	/^int MainWindow::savePrevStatus()$/;"	f	line:430	class:MainWindow	signature:()
+savePrevStatus	main_window.h	/^    int savePrevStatus(void);$/;"	p	line:80	class:MainWindow	access:private	signature:(void)
+setBilateralOpt	blur_dialog.cpp	/^void BlurDialog::setBilateralOpt()$/;"	f	line:239	class:BlurDialog	signature:()
+setBilateralOpt	blur_dialog.h	/^    void setBilateralOpt();$/;"	p	line:35	class:BlurDialog	access:public	signature:()
+setCrossType	morphology_dialog.cpp	/^void MorphologyDialog::setCrossType()$/;"	f	line:165	class:MorphologyDialog	signature:()
+setCrossType	morphology_dialog.h	/^    void setCrossType();$/;"	p	line:37	class:MorphologyDialog	access:public	signature:()
+setDilateOpt	morphology_dialog.cpp	/^void MorphologyDialog::setDilateOpt()$/;"	f	line:147	class:MorphologyDialog	signature:()
+setDilateOpt	morphology_dialog.h	/^    void setDilateOpt();$/;"	p	line:34	class:MorphologyDialog	access:public	signature:()
+setEllipseType	morphology_dialog.cpp	/^void MorphologyDialog::setEllipseType()$/;"	f	line:171	class:MorphologyDialog	signature:()
+setEllipseType	morphology_dialog.h	/^    void setEllipseType();$/;"	p	line:38	class:MorphologyDialog	access:public	signature:()
+setErodeOpt	morphology_dialog.cpp	/^void MorphologyDialog::setErodeOpt()$/;"	f	line:153	class:MorphologyDialog	signature:()
+setErodeOpt	morphology_dialog.h	/^    void setErodeOpt();$/;"	p	line:35	class:MorphologyDialog	access:public	signature:()
+setGuassianOpt	blur_dialog.cpp	/^void BlurDialog::setGuassianOpt()$/;"	f	line:227	class:BlurDialog	signature:()
+setGuassianOpt	blur_dialog.h	/^    void setGuassianOpt();$/;"	p	line:33	class:BlurDialog	access:public	signature:()
+setGuidedOpt	blur_dialog.cpp	/^void BlurDialog::setGuidedOpt()$/;"	f	line:245	class:BlurDialog	signature:()
+setGuidedOpt	blur_dialog.h	/^    void setGuidedOpt();$/;"	p	line:36	class:BlurDialog	access:public	signature:()
+setHomogeneousOpt	blur_dialog.cpp	/^void BlurDialog::setHomogeneousOpt()$/;"	f	line:221	class:BlurDialog	signature:()
+setHomogeneousOpt	blur_dialog.h	/^    void setHomogeneousOpt();$/;"	p	line:32	class:BlurDialog	access:public	signature:()
+setMedianOpt	blur_dialog.cpp	/^void BlurDialog::setMedianOpt()$/;"	f	line:233	class:BlurDialog	signature:()
+setMedianOpt	blur_dialog.h	/^    void setMedianOpt();$/;"	p	line:34	class:BlurDialog	access:public	signature:()
+setRectType	morphology_dialog.cpp	/^void MorphologyDialog::setRectType()$/;"	f	line:159	class:MorphologyDialog	signature:()
+setRectType	morphology_dialog.h	/^    void setRectType();$/;"	p	line:36	class:MorphologyDialog	access:public	signature:()
+show_image	main_window.cpp	/^void MainWindow::show_image()$/;"	f	line:399	class:MainWindow	signature:()
+show_image	main_window.h	/^    void show_image();$/;"	p	line:79	class:MainWindow	access:private	signature:()
+sizeLabel	morphology_dialog.h	/^    QLabel *sizeLabel;$/;"	m	line:52	class:MorphologyDialog	access:private
+sizeSlider	morphology_dialog.h	/^    QSlider *sizeSlider;$/;"	m	line:51	class:MorphologyDialog	access:private
+sizeSliderChanged	morphology_dialog.cpp	/^void MorphologyDialog::sizeSliderChanged(int value)$/;"	f	line:177	class:MorphologyDialog	signature:(int value)
+sizeSliderChanged	morphology_dialog.h	/^    void sizeSliderChanged(int value);$/;"	p	line:39	class:MorphologyDialog	access:public	signature:(int value)
+size_ele	morphology_dialog.h	/^    int size_ele;$/;"	m	line:65	class:MorphologyDialog	access:private
+size_step	morphology_dialog.h	/^    static const int size_step=1;$/;"	m	line:66	class:MorphologyDialog	access:private
+staticMetaObject	moc_blur_dialog.cpp	/^const QMetaObject BlurDialog::staticMetaObject = {$/;"	m	line:82	class:BlurDialog	file:
+staticMetaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject CannyDialog::staticMetaObject = {$/;"	m	line:112	class:CannyDialog	file:
+staticMetaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject EdgedetectDialog::staticMetaObject = {$/;"	m	line:209	class:EdgedetectDialog	file:
+staticMetaObject	moc_edgedetect_dialog.cpp	/^const QMetaObject LOGDialog::staticMetaObject = {$/;"	m	line:51	class:LOGDialog	file:
+staticMetaObject	moc_facedetect_dialog.cpp	/^const QMetaObject FacedetectDialog::staticMetaObject = {$/;"	m	line:68	class:FacedetectDialog	file:
+staticMetaObject	moc_histeq_dialog.cpp	/^const QMetaObject HisteqDialog::staticMetaObject = {$/;"	m	line:68	class:HisteqDialog	file:
+staticMetaObject	moc_hough_dialog.cpp	/^const QMetaObject HoughDialog::staticMetaObject = {$/;"	m	line:85	class:HoughDialog	file:
+staticMetaObject	moc_main_window.cpp	/^const QMetaObject MainWindow::staticMetaObject = {$/;"	m	line:114	class:MainWindow	file:
+staticMetaObject	moc_morphology_dialog.cpp	/^const QMetaObject MorphologyDialog::staticMetaObject = {$/;"	m	line:82	class:MorphologyDialog	file:
+staticMetaObject	moc_powertf_dialog.cpp	/^const QMetaObject PowertfDialog::staticMetaObject = {$/;"	m	line:75	class:PowertfDialog	file:
+staticMetaObjectExtraData	moc_blur_dialog.cpp	/^const QMetaObjectExtraData BlurDialog::staticMetaObjectExtraData = {$/;"	m	line:78	class:BlurDialog	file:
+staticMetaObjectExtraData	moc_edgedetect_dialog.cpp	/^const QMetaObjectExtraData CannyDialog::staticMetaObjectExtraData = {$/;"	m	line:108	class:CannyDialog	file:
+staticMetaObjectExtraData	moc_edgedetect_dialog.cpp	/^const QMetaObjectExtraData EdgedetectDialog::staticMetaObjectExtraData = {$/;"	m	line:205	class:EdgedetectDialog	file:
+staticMetaObjectExtraData	moc_edgedetect_dialog.cpp	/^const QMetaObjectExtraData LOGDialog::staticMetaObjectExtraData = {$/;"	m	line:47	class:LOGDialog	file:
+staticMetaObjectExtraData	moc_facedetect_dialog.cpp	/^const QMetaObjectExtraData FacedetectDialog::staticMetaObjectExtraData = {$/;"	m	line:64	class:FacedetectDialog	file:
+staticMetaObjectExtraData	moc_histeq_dialog.cpp	/^const QMetaObjectExtraData HisteqDialog::staticMetaObjectExtraData = {$/;"	m	line:64	class:HisteqDialog	file:
+staticMetaObjectExtraData	moc_hough_dialog.cpp	/^const QMetaObjectExtraData HoughDialog::staticMetaObjectExtraData = {$/;"	m	line:81	class:HoughDialog	file:
+staticMetaObjectExtraData	moc_main_window.cpp	/^const QMetaObjectExtraData MainWindow::staticMetaObjectExtraData = {$/;"	m	line:110	class:MainWindow	file:
+staticMetaObjectExtraData	moc_morphology_dialog.cpp	/^const QMetaObjectExtraData MorphologyDialog::staticMetaObjectExtraData = {$/;"	m	line:78	class:MorphologyDialog	file:
+staticMetaObjectExtraData	moc_powertf_dialog.cpp	/^const QMetaObjectExtraData PowertfDialog::staticMetaObjectExtraData = {$/;"	m	line:71	class:PowertfDialog	file:
+statusChanged	blur_dialog.h	/^    void statusChanged();$/;"	p	line:27	class:BlurDialog	access:public	signature:()
+statusChanged	edgedetect_dialog.h	/^    void statusChanged();$/;"	p	line:65	class:EdgedetectDialog	access:public	signature:()
+statusChanged	facedetect_dialog.h	/^    void statusChanged();$/;"	p	line:26	class:FacedetectDialog	access:public	signature:()
+statusChanged	histeq_dialog.h	/^    void statusChanged();$/;"	p	line:28	class:HisteqDialog	access:public	signature:()
+statusChanged	hough_dialog.h	/^    void statusChanged();$/;"	p	line:28	class:HoughDialog	access:public	signature:()
+statusChanged	moc_blur_dialog.cpp	/^void BlurDialog::statusChanged()$/;"	f	line:118	class:BlurDialog	signature:()
+statusChanged	moc_edgedetect_dialog.cpp	/^void EdgedetectDialog::statusChanged()$/;"	f	line:245	class:EdgedetectDialog	signature:()
+statusChanged	moc_facedetect_dialog.cpp	/^void FacedetectDialog::statusChanged()$/;"	f	line:104	class:FacedetectDialog	signature:()
+statusChanged	moc_histeq_dialog.cpp	/^void HisteqDialog::statusChanged()$/;"	f	line:104	class:HisteqDialog	signature:()
+statusChanged	moc_hough_dialog.cpp	/^void HoughDialog::statusChanged()$/;"	f	line:121	class:HoughDialog	signature:()
+statusChanged	moc_morphology_dialog.cpp	/^void MorphologyDialog::statusChanged()$/;"	f	line:118	class:MorphologyDialog	signature:()
+statusChanged	moc_powertf_dialog.cpp	/^void PowertfDialog::statusChanged()$/;"	f	line:111	class:PowertfDialog	signature:()
+statusChanged	morphology_dialog.h	/^    void statusChanged();$/;"	p	line:28	class:MorphologyDialog	access:public	signature:()
+statusChanged	powertf_dialog.h	/^    void statusChanged();$/;"	p	line:39	class:PowertfDialog	access:private	signature:()
+tabWidget	edgedetect_dialog.h	/^    QTabWidget *tabWidget;$/;"	m	line:83	class:EdgedetectDialog	access:private
+theta	hough_dialog.h	/^    double theta;$/;"	m	line:56	class:HoughDialog	access:private
+thetaChanged	hough_dialog.cpp	/^void HoughDialog::thetaChanged(int value)$/;"	f	line:229	class:HoughDialog	signature:(int value)
+thetaChanged	hough_dialog.h	/^    void thetaChanged(int value);$/;"	p	line:35	class:HoughDialog	access:public	signature:(int value)
+thetaEdit	hough_dialog.h	/^    QSpinBox *thetaEdit;$/;"	m	line:50	class:HoughDialog	access:private
+thetaLabel	hough_dialog.h	/^    QLabel *thetaLabel;$/;"	m	line:44	class:HoughDialog	access:private
+thetaSlider	hough_dialog.h	/^    QSlider *thetaSlider;$/;"	m	line:47	class:HoughDialog	access:private
+theta_step	hough_dialog.h	/^    static const double theta_step = CV_PI\/360;$/;"	m	line:59	class:HoughDialog	access:private
+thr	hough_dialog.h	/^    int thr;$/;"	m	line:57	class:HoughDialog	access:private
+thrChanged	hough_dialog.cpp	/^void HoughDialog::thrChanged(int value)$/;"	f	line:235	class:HoughDialog	signature:(int value)
+thrChanged	hough_dialog.h	/^    void thrChanged(int value);$/;"	p	line:36	class:HoughDialog	access:public	signature:(int value)
+thrEdit	hough_dialog.h	/^    QSpinBox *thrEdit;$/;"	m	line:51	class:HoughDialog	access:private
+thrLabel	edgedetect_dialog.h	/^    QLabel *thrLabel;$/;"	m	line:35	class:LOGDialog	access:private
+thrLabel	hough_dialog.h	/^    QLabel *thrLabel;$/;"	m	line:45	class:HoughDialog	access:private
+thrSBx	edgedetect_dialog.h	/^    QSpinBox *thrSBx;$/;"	m	line:39	class:LOGDialog	access:private
+thrSlider	edgedetect_dialog.h	/^    QSlider *thrSlider;$/;"	m	line:31	class:LOGDialog	access:private
+thrSlider	hough_dialog.h	/^    QSlider *thrSlider;$/;"	m	line:48	class:HoughDialog	access:private
+thr_step	hough_dialog.h	/^    static const int thr_step = 1;$/;"	m	line:60	class:HoughDialog	access:private
+toolMenu	main_window.h	/^    QMenu *toolMenu;$/;"	m	line:99	class:MainWindow	access:private
+win_hist	histeq_dialog.cpp	/^const char *win_hist = "histogram";$/;"	v	line:20
+~MainWindow	main_window.cpp	/^MainWindow::~MainWindow()$/;"	f	line:56	class:MainWindow	signature:()
+~MainWindow	main_window.h	/^    ~MainWindow();$/;"	p	line:38	class:MainWindow	access:public	signature:()

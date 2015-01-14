@@ -1,0 +1,9 @@
+<RCC>
+<qresource>
+    <file>images/forward.png</file>
+    <file>images/backward.png</file>
+    <file>images/title.png</file>
+    <file>images/Start.png</file>
+    <file>images/Stop.png</file>
+</qresource>
+</RCC>

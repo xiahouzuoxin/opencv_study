@@ -1,0 +1,19 @@
+1. Face Detecion
+   Algorithm uses Haar feature 
+
+2. Power Transform
+   y=255*c*(x/255).^r+b
+
+3. Edge Detection
+   LOG
+   canny
+
+4. Hough Line Detection
+
+5. Morphology
+   Dilate
+   Erode
+
+6. Blur
+   
+
